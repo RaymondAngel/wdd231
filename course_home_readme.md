@@ -5,6 +5,7 @@ Open [index.html](index.html). This is a separate course-home project, not the c
 ## Files
 
 - `index.html`: default repository home, with About Me, Student Photo, and Web Certificate Courses.
+- `favicon.ico`: W02 single 16 × 16 course favicon in the repository root; referenced by both course pages. See week_two_favicon_review.md for checks and pending browser preview.
 - `course_home_final.html`: explicitly labeled future-final-project navigation placeholder.
 - `styles/small.css`: custom mobile-first styling.
 - `styles/larger.css`: custom media-query layouts, loaded after small.css.
