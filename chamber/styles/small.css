@@ -10,7 +10,7 @@
   --line: #c6d0c4;
 }
 * { box-sizing: border-box; }
-body { margin: 0; color: var(--ink); background: var(--paper); font: 1rem/1.65 Arial, Helvetica, sans-serif; }
+body { margin: 0; color: var(--ink); background: var(--paper); font: 1rem/1.65 'Open Sans', Arial, Helvetica, sans-serif; }
 [hidden] { display: none; }
 img { display: block; max-width: 100%; height: auto; }
 a { color: var(--forest); text-underline-offset: .25em; overflow-wrap: anywhere; }
@@ -18,7 +18,7 @@ button, input, select { font: inherit; }
 button { cursor: pointer; }
 :focus-visible { outline: 3px solid #a34b17; outline-offset: 4px; }
 h1, h2, p { margin-top: 0; }
-h1, h2 { font-family: Georgia, 'Times New Roman', serif; line-height: 1.2; }
+h1, h2 { font-family: 'Lora', Georgia, 'Times New Roman', serif; line-height: 1.2; }
 h1 { font-size: clamp(2rem, 6vw, 3.6rem); margin-bottom: .75rem; }
 h2 { font-size: 1.35rem; }
 .container { width: min(1160px, calc(100% - 2rem)); margin-inline: auto; }
@@ -26,10 +26,10 @@ h2 { font-size: 1.35rem; }
 .skip-link:focus { top: 1rem; }
 .site-header { background: #ffffff; border-bottom: 1px solid var(--line); }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1rem; }
-.brand { display: flex; align-items: center; gap: .7rem; min-width: 0; text-decoration: none; font: 700 1.3rem/1.25 Georgia, serif; }
+.brand { display: flex; align-items: center; gap: .7rem; min-width: 0; text-decoration: none; font: 700 1.3rem/1.25 'Lora', Georgia, serif; }
 .brand img { width: 44px; height: 44px; padding: .5rem; background: var(--gold); border-radius: 8px; flex-shrink: 0; }
 .brand span { overflow-wrap: anywhere; }
-.brand small { display: block; font: 700 .6rem/1.5 Arial, sans-serif; letter-spacing: .1em; margin-top: .2rem; }
+.brand small { display: block; font: 700 .6rem/1.5 'Open Sans', Arial, sans-serif; letter-spacing: .1em; margin-top: .2rem; }
 .menu-button { min-width: 44px; min-height: 44px; padding: .4rem .6rem; background: var(--paper); border: 1px solid var(--forest); border-radius: 4px; color: var(--forest); }
 #primary_navigation { width: 100%; }
 .navigation-links { display: flex; flex-direction: column; gap: .2rem; }

@@ -10,7 +10,7 @@ Help local residents, visitors, and business owners discover chamber members and
 
 ## Shared design
 
-Retain the existing chamber forest #163f39, forest-dark #10312c, gold #e8b85b, paper #fbfaf6, sage #edf1e9, ink #202d29, and muted #596660 palette. Use Georgia for headings and Arial/Helvetica for readable body text. Normalize loads before shared small.css and larger.css. No frameworks or page-specific CSS files.
+Retain the existing chamber forest #163f39, forest-dark #10312c, gold #e8b85b, paper #fbfaf6, sage #edf1e9, ink #202d29, and muted #596660 palette. Use Google Fonts Lora for headings and branding and Open Sans for body text, with Georgia and Arial/Helvetica fallbacks. Include both Google preconnect links and the CSS2 API stylesheet with display=swap on every chamber page. Normalize loads first, followed by fonts, small.css, and larger.css. No @import, frameworks, or page-specific CSS files.
 
 Site navigation follows the project scope: Home, Discover, Directory, Join. Shared chrome includes a chamber mark/name, responsive navigation with active-page indication, contact details, social links, and Raymond Amande / WDD 231 / dynamic year and last-modified development information. Future page body work belongs to its later milestone, not this directory assignment.
 

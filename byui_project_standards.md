@@ -4,6 +4,7 @@ These notes record requirements available in this WDD 231 workspace, not every a
 
 - Use semantic, valid HTML with language, charset, viewport, meaningful title/description, and author.
 - Keep custom CSS and JavaScript external; defer scripts; avoid frameworks, inline event handlers, and unnecessary dependencies.
+- When Google Fonts are required, use a fonts.googleapis.com stylesheet link and both preconnect links (fonts.gstatic.com with crossorigin). Apply the requested families in external CSS with system fallbacks; do not use @import.
 - Load normalize before other styles. Use accessible colors, keyboard focus, useful image alternatives, responsive layouts, and lowercase filenames with underscores when needed.
 - Follow required filenames exactly. Keep styles, scripts, images, and JSON data in their appropriate subfolders; keep separate assignments from altering existing projects unnecessarily.
 - Use async/await for asynchronous course work. Await fetch() and response.json(); render only after the data is ready.

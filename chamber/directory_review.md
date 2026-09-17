@@ -1,5 +1,9 @@
 # W02 Chamber Directory — California City
 
+## Google Fonts audit correction
+
+The supplied course audit flagged three missing Google Fonts links. All four chamber pages and five original week-one pages now include the Google CSS2 stylesheet and both required preconnect links, with crossorigin for fonts.gstatic.com. External CSS applies Lora and Open Sans (400/700), with system fallbacks and display=swap. Normalize remains the first stylesheet; no @import is used. The Google endpoint returned HTTP 200 with both font families. Colors are unchanged because the supplied contrast audit passed. These are local corrections; rerun the published audit after uploading the updated files.
+
 ## Open the assignment
 
 Open directory.html with VS Code Live Server. The target published address is https://RaymondAngel.github.io/wdd231/chamber/directory.html. This address has not been verified online for this new page.
