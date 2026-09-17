@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore latter-day prophet portraits, birthdates, and birthplaces in Raymond Amande’s responsive WDD 231 Fetch API learning activity.">
+  <meta name="author" content="Raymond Amande">
+  <meta name="theme-color" content="#1f3240">
+  <title>Latter-day Prophets | Raymond Amande</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/prophets.css">
+  <script src="scripts/prophets.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main_content">Skip to prophet cards</a>
+  <header>
+    <a class="home-link" href="index.html">← Course Home</a>
+    <p class="eyebrow">WDD 231 · FETCH API</p>
+    <h1>Latter-day Prophets</h1>
+    <p>Portraits, dates of birth, and places of birth from the course JSON resource.</p>
+  </header>
+  <main id="main_content">
+    <p id="load_status" role="status" aria-live="polite">Loading prophet records…</p>
+    <button id="retry_button" type="button" hidden>Try again</button>
+    <noscript><p>Enable JavaScript to fetch the prophet records and display their cards.</p></noscript>
+    <div id="cards" aria-busy="true"></div>
+  </main>
+  <footer>
+    <p>Raymond Amande | Latter-day Prophets</p>
+    <p>Data and portraits: <a href="https://byui-cse.github.io/cse-ww-program/data/latter-day-prophets.json">BYU–Idaho course resource</a></p>
+  </footer>
+</body>
+</html>

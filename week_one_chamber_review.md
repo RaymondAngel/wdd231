@@ -6,9 +6,9 @@ Reviewed against the full project description pasted by the student.
 
 | Requirement | Evidence | Status |
 | --- | --- | --- |
-| A town or region is selected | Cedar Harbor, a clearly identified fictional California coastal town | Complete |
-| Home: attention-grabbing content, community information, weather, calls to action, spotlights | Hero, community statistics, recurring events, regional weather and forecast, join links, rotating member cards | Complete |
-| Discover: history, current demographics, current events, image montage | Fictional history, labeled 2026 community profile, recurring events, three local illustrative photographs | Complete |
+| A town or region is selected | California City, Kern County, California, United States — real locality, demonstration chamber | Complete |
+| Home: attention-grabbing content, community information, weather, calls to action, spotlights | Hero, community statistics, recurring events, California City model weather and forecast, join links, rotating member cards | Complete |
+| Discover: history, current demographics, current events, image montage | Sourced history and geographic community facts; verified current demographic statistics are not included, recurring events, three local illustrative photographs | Current demographic statistics not supplied; no invented figures claimed as real |
 | Directory: businesses and other member organizations | Seven records, including a non-profit pantry; search, categories, levels, grid/list views, profiles | Complete |
 | Join: membership benefits and application | Required contact/organization fields, membership selector, demo acknowledgement, preview confirmation | Complete |
 | Exactly the requested non-profit, silver, and gold options | Three membership cards and matching selector options | Complete |
@@ -19,7 +19,7 @@ Reviewed against the full project description pasted by the student.
 | Course-specific development standards | The pasted overview does not include the detailed course standards or weekly scoring rubric | Cannot fully certify without those documents |
 | Published site meets course intent | Project exists locally; no deployment or public URL has been verified | **Outstanding: publication** |
 
-Fictional content is explicitly allowed by the supplied description. Illustrative photos and regional weather are clearly distinguished from real Cedar Harbor data.
+Fictional content is explicitly allowed by the supplied description. The locality is real. Fictional business/event content and illustrative photos from other locations are explicitly disclosed; weather requests California City coordinates.
 
 ## Bugs corrected during this review
 
@@ -53,3 +53,7 @@ Fictional content is explicitly allowed by the supplied description. Illustrativ
 
 Your existing JavaScript review exercise and normalize stylesheet were not modified by this chamber review.
 
+
+## Locality update
+
+Updated all five original pages, shared scripts, and both member datasets to California City, Kern County, California, United States. Replaced invented coastal history and population figures with sourced history and geographic facts. Weather coordinates now target California City. Earlier regression results above describe the earlier review, not a new rendered-browser audit.

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Harbor & Hearth Café",
+    "address": "18 Harbor Walk, California City, Kern County, CA, United States",
+    "phone": "(805) 555-0101",
+    "website": "https://example.com/?business=harbor_and_hearth_cafe",
+    "image": "harbor_hearth_cafe.svg",
+    "membership_level": 3,
+    "category": "Food & drink",
+    "description": "Small-batch coffee, seasonal pastries, and a welcoming place to meet your next collaborator."
+  },
+  {
+    "name": "Cedar Coast Outfitters",
+    "address": "42 Bay Street, California City, Kern County, CA, United States",
+    "phone": "(805) 555-0102",
+    "website": "https://example.com/?business=cedar_coast_outfitters",
+    "image": "cedar_coast_outfitters.svg",
+    "membership_level": 3,
+    "category": "Shopping & recreation",
+    "description": "Locally owned outdoor outfitter offering desert excursions, hiking equipment, and Mojave adventure advice."
+  },
+  {
+    "name": "Green Basket Market",
+    "address": "7 Market Square, California City, Kern County, CA, United States",
+    "phone": "(805) 555-0103",
+    "website": "https://example.com/?business=green_basket_market",
+    "image": "green_basket_market.svg",
+    "membership_level": 2,
+    "category": "Food & drink",
+    "description": "Fresh local produce, pantry staples, and a year-round commitment to supporting neighboring growers."
+  },
+  {
+    "name": "Seabright Creative Studio",
+    "address": "65 Cedar Avenue, California City, Kern County, CA, United States",
+    "phone": "(805) 555-0104",
+    "website": "https://example.com/?business=seabright_creative_studio",
+    "image": "seabright_creative.svg",
+    "membership_level": 2,
+    "category": "Professional services",
+    "description": "A small design studio helping independent businesses tell their story through branding, photography, and web design."
+  },
+  {
+    "name": "Harbor House Inn",
+    "address": "12 Lighthouse Lane, California City, Kern County, CA, United States",
+    "phone": "(805) 555-0105",
+    "website": "https://example.com/?business=harbor_house_inn",
+    "image": "harbor_house_inn.svg",
+    "membership_level": 3,
+    "category": "Hospitality",
+    "description": "A family-run desert inn with comfortable rooms, local breakfast recommendations, and a warm community welcome."
+  },
+  {
+    "name": "California City Community Pantry",
+    "address": "90 Community Way, California City, Kern County, CA, United States",
+    "phone": "(805) 555-0106",
+    "website": "https://example.com/?business=community_pantry",
+    "image": "community_pantry.svg",
+    "membership_level": 1,
+    "category": "Community organizations",
+    "description": "A volunteer-led organization connecting neighbors with nutritious food and practical support."
+  },
+  {
+    "name": "Bayview Business Advisors",
+    "address": "33 Bay Street, California City, Kern County, CA, United States",
+    "phone": "(805) 555-0107",
+    "website": "https://example.com/?business=bayview_business_advisors",
+    "image": "bayview_advisors.svg",
+    "membership_level": 2,
+    "category": "Professional services",
+    "description": "Practical bookkeeping, business planning, and one-to-one mentoring for the next generation of local entrepreneurs."
+  }
+]

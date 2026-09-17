@@ -15,14 +15,14 @@ All new filenames are lowercase and use underscores between words. Pages are int
 
 ## Project content
 
-Cedar Harbor is an imaginary California coastal community. The population, history, events, chamber membership counts, business listings, contact details, and annual membership prices are demonstration content, not researched facts. Businesses have reserved fictional phone numbers and the chamber uses a reserved `.example` email domain. The photos depict other places and are labeled illustrative.
+California City is a real city in Kern County, California, United States. The discover page uses sourced history and community facts. Events, chamber membership counts, business listings, contact details, and annual membership prices remain demonstration content, not verified local information. Businesses have reserved fictional phone numbers and the chamber uses a reserved `.example` email domain. The photos depict other places and are labeled illustrative.
 
 The supplied assignment is an overall project description, not a detailed week-one grading rubric. This implementation covers every page and feature in that supplied description. Additional weekly rubric requirements, if assigned separately, may need later adjustments.
 
 ## Features
 
-- **Home:** prominent community introduction, membership calls to action, recurring fictional events, daily rotating silver/gold spotlights, and current regional weather with a three-day forecast.
-- **Discover:** fictional community history and demographics, a photographic montage, recurring community events, and an optional browser-local return-visit message.
+- **Home:** prominent community introduction, membership calls to action, recurring fictional events, daily rotating silver/gold spotlights, and current California City weather with a three-day forecast.
+- **Discover:** sourced community history and geographic facts (not invented current demographics), a photographic montage, recurring community events, and an optional browser-local return-visit message.
 - **Directory:** seven members, text search, category and membership filters, accessible grid/list controls, empty-state reset, and modal member profiles.
 - **Join:** non-profit, silver, and gold levels; expandable perks; a labeled, browser-validated application form; membership-selection links; and a confirmation preview.
 - **Shared:** consistent navigation, semantic landmarks, responsive media queries, a skip link, visible keyboard focus, mobile menu, year, last-modified date, and fiction/demo notices.
@@ -35,7 +35,7 @@ No frameworks or third-party runtime libraries are required. JavaScript is loade
 
 ## Weather
 
-Live weather uses Santa Barbara, California (34.42, -119.70) as a clearly identified regional reference; there is no real Cedar Harbor weather station. The request uses Fahrenheit, Pacific time, current temperature/humidity/weather code, and three daily high/low forecasts. Weather is fetched only on the home page, with a ten-second timeout, an honest unavailable message, and a retry button. No invented weather readings are shown on failure.
+Live weather requests California City, California (35.1258, -117.9859). It is a model forecast, not a claim about a local weather station. The request uses Fahrenheit, Pacific time, current temperature/humidity/weather code, and three daily high/low forecasts. Weather is fetched only on the home page, with a ten-second timeout, an honest unavailable message, and a retry button. No invented weather readings are shown on failure.
 
 - [Open-Meteo forecast API documentation](https://open-meteo.com/en/docs)
 - [Open-Meteo](https://open-meteo.com/) provides the weather data.
@@ -50,7 +50,7 @@ Browser `localStorage` is used only for the directory display preference and a d
 
 ## Image credits and license
 
-Downloaded local JPEGs are compressed/resized from Unsplash and used under the [Unsplash License](https://unsplash.com/license). Images are illustrative rather than photographs of a real Cedar Harbor.
+Downloaded local JPEGs are compressed/resized from Unsplash and used under the [Unsplash License](https://unsplash.com/license). Images are illustrative from other locations, not photographs of California City.
 
 - **Harbor:** [Gabriele Merlino — Coastal town with harbor and boats on a sunny day](https://unsplash.com/photos/coastal-town-with-harbor-and-boats-on-a-sunny-day-HDwQ4-c4BLk), photographed in Castellammare del Golfo, Italy.
 - **Café:** [Adhitya Sibikumar — Interior of a modern cafe with a long counter](https://unsplash.com/photos/interior-of-a-modern-cafe-with-a-long-counter-vePzWEyYmdk).
@@ -65,3 +65,9 @@ Local checks verified five HTML pages, every local asset/reference, unique IDs, 
 ## Local delivery
 
 The project is delivered locally in the requested WDD 231 root and subfolders. No public deployment or changes to your Git repository settings were performed. For a static host, use `week_one_chamber_home.html` as the entry URL. Public hosting, a custom domain, and a real membership backend are separate steps.
+
+## Updated locality
+
+All chamber pages and member datasets now use California City, Kern County, California, United States. The fictional community pantry is renamed California City Community Pantry. Existing fictional business brands and street names are retained, with desert-appropriate descriptions. Office contact details remain fictional; the real city's postal code is 93505.
+
+Location/history sources: [Kern LAFCo](https://www.kernlafco.org/city-of-california-city) and [City of California City](https://www.californiacity-ca.gov/). The newer directory assignment is in [chamber/directory.html](chamber/directory.html).

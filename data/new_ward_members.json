@@ -1,0 +1,28 @@
+{
+  "family_name": "Parker",
+  "move_in_date": "2026-09-01",
+  "number_of_people": 4,
+  "visited_by_bishopric": false,
+  "family_members": [
+    {
+      "name": "Daniel Parker",
+      "gender": "Male",
+      "birthdate": "1989-05-15"
+    },
+    {
+      "name": "Elena Parker",
+      "gender": "Female",
+      "birthdate": "1991-08-20"
+    },
+    {
+      "name": "Maya Parker",
+      "gender": "Female",
+      "birthdate": "2013-03-05"
+    },
+    {
+      "name": "Lucas Parker",
+      "gender": "Male",
+      "birthdate": "2016-11-10"
+    }
+  ]
+}

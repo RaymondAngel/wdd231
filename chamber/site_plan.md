@@ -1,0 +1,35 @@
+# California City Chamber directory site plan
+
+## Confirmed location and continuity
+
+Raymond confirmed California City, Kern County, California, United States. The chamber now uses that real locality while retaining the earlier project's seven fictional businesses, descriptions, phone numbers, and forest-and-gold palette. The original week-one prototype files now reflect the same California City locality. Invented business addresses and chamber contact details are clearly disclosed as fictional; the student site is not an official chamber website.
+
+## Purpose and audience
+
+Help local residents, visitors, and business owners discover chamber members and connect with local services. Scenarios include finding a business phone number, comparing membership levels, and switching between a visual directory and a compact contact list.
+
+## Shared design
+
+Retain the existing chamber forest #163f39, forest-dark #10312c, gold #e8b85b, paper #fbfaf6, sage #edf1e9, ink #202d29, and muted #596660 palette. Use Georgia for headings and Arial/Helvetica for readable body text. Normalize loads before shared small.css and larger.css. No frameworks or page-specific CSS files.
+
+Site navigation follows the project scope: Home, Discover, Directory, Join. Shared chrome includes a chamber mark/name, responsive navigation with active-page indication, contact details, social links, and Raymond Amande / WDD 231 / dynamic year and last-modified development information. Future page body work belongs to its later milestone, not this directory assignment.
+
+## Directory and data
+
+The independent chamber folder contains styles/, scripts/, images/, and data/. Its members.json is a top-level array with seven fictional companies, including names, addresses, phone numbers, HTTPS website URLs, seven distinct local SVG image filenames, numeric membership levels 1/2/3, categories, and descriptions.
+
+Illustrative member icons come from Feather Icons 4.29.2 under MIT; originals are downloaded rather than authored SVGs. The original license is stored in images/icon_license.txt. Demo websites use example.com rather than impersonating actual companies. Required contact data must be disclosed as fictional on the final page.
+
+The directory script uses await fetch(), response.ok, await response.json(), record validation, and textContent-based rendering. Grid/list controls maintain aria-pressed and change presentation without changing the records. Loading, error/retry, and broken-image states are provided. The shared script handles responsive menu state, Escape focus, year, and last modification.
+
+## Completion status
+
+Implemented: independent folders; directory.html; shared page chrome and styles; common navigation/footer behavior; JSON loading and view controls; seven complete records with California City locality; distinct business images; favicon; locally hosted social-preview asset and static metadata; reusable lesson notes.
+
+Home, Discover, and Join are clearly labeled future-milestone page templates with the same header/footer/navigation. Their earlier prototype content remains in the original root files, updated to California City with sourced community history and clearly labeled demonstration content; it is not copied into the directory body. Full migration/development of those page bodies belongs to their later milestones.
+
+Local tests passed; rendered browser/DevTools contrast, Lighthouse, and official published audit reports remain pending, along with publishing, group sharing, and Canvas submission. See directory_review.md for evidence and the remaining steps. No existing chamber project files have been replaced.
+
+## References
+
+[W02 directory assignment](https://byui-cse.github.io/wdd231-ww-course/week02/assignment-02.html), [official site plan](https://byui-cse.github.io/wdd231-ww-course/week02/chamber-site-plan.html), [directory examples](https://byui-cse.github.io/wdd231-ww-course/resources/chamber-directory-example.html), and [Feather Icons](https://github.com/feathericons/feather).

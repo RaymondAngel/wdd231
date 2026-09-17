@@ -19,7 +19,7 @@ const chamberMembers = [
     "phone": "(805) 555-0102",
     "image": "week_one_chamber_harbor.jpg",
     "alt": "Boats and buildings overlooking a coastal harbor",
-    "description": "Locally owned outdoor outfitter offering harbor excursions, paddling equipment, and coastal adventure advice."
+    "description": "Locally owned outdoor outfitter offering desert excursions, hiking equipment, and Mojave adventure advice."
   },
   {
     "name": "Green Basket Market",
@@ -49,10 +49,10 @@ const chamberMembers = [
     "phone": "(805) 555-0105",
     "image": "week_one_chamber_harbor.jpg",
     "alt": "A scenic coastal town and marina",
-    "description": "A family-run coastal inn with comfortable rooms, local breakfast recommendations, and a warm community welcome."
+    "description": "A family-run desert inn with comfortable rooms, local breakfast recommendations, and a warm community welcome."
   },
   {
-    "name": "Cedar Harbor Community Pantry",
+    "name": "California City Community Pantry",
     "category": "Community organizations",
     "level": "Non-profit",
     "address": "90 Community Way",
@@ -72,4 +72,3 @@ const chamberMembers = [
     "description": "Practical bookkeeping, business planning, and one-to-one mentoring for the next generation of local entrepreneurs."
   }
 ];
-

@@ -56,7 +56,7 @@ function memberCard(member, profileButton = false) {
       <div class="member-topline"><span class="member-category">${escapeHtml(member.category)}</span><span class="badge${badgeClass}">${escapeHtml(member.level)}</span></div>
       <h3>${escapeHtml(member.name)}</h3>
       <p>${escapeHtml(member.description)}</p>
-      <address>${escapeHtml(member.address)} · Cedar Harbor<br>${escapeHtml(member.phone)}</address>
+      <address>${escapeHtml(member.address)} · California City<br>${escapeHtml(member.phone)}</address>
       ${profileButton ? `<button type="button" class="text-button" data-member-index="${index}" aria-label="View ${escapeHtml(member.name)} profile">View member profile →</button>` : '<a class="text-link" href="week_one_chamber_directory.html">Explore member directory →</a>'}
     </div>
   </article>`;
@@ -126,7 +126,7 @@ if (directory) {
     document.querySelector("#member_dialog_content").innerHTML =
       `<p class="tag">${escapeHtml(member.category)} · ${escapeHtml(member.level)} member</p>
       <p>${escapeHtml(member.description)}</p>
-      <address>${escapeHtml(member.address)}<br>Cedar Harbor, California<br>${escapeHtml(member.phone)}</address>`;
+      <address>${escapeHtml(member.address)}<br>California City, California<br>${escapeHtml(member.phone)}</address>`;
     dialog.showModal();
   });
   dialog.querySelector(".dialog-close").addEventListener("click", () => dialog.close());
@@ -187,14 +187,14 @@ async function loadWeather() {
   if (!current) return;
   const forecast = document.querySelector("#weather_forecast");
   const retry = document.querySelector("#weather_retry");
-  current.textContent = "Loading live regional weather…";
+  current.textContent = "Loading California City weather…";
   forecast.replaceChildren();
   retry.hidden = true;
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10000);
   try {
-    // Santa Barbara is a real regional reference for this fictional coastal town.
-    const url = "https://api.open-meteo.com/v1/forecast?latitude=34.42&longitude=-119.70&current=temperature_2m,relative_humidity_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min&temperature_unit=fahrenheit&timezone=America%2FLos_Angeles&forecast_days=3";
+    // California City, Kern County, California: forecast coordinates for the real locality.
+    const url = "https://api.open-meteo.com/v1/forecast?latitude=35.1258&longitude=-117.9859&current=temperature_2m,relative_humidity_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min&temperature_unit=fahrenheit&timezone=America%2FLos_Angeles&forecast_days=3";
     const response = await fetch(url, { signal: controller.signal });
     if (!response.ok) throw new Error("Weather service unavailable.");
     const data = await response.json();
