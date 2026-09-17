@@ -1,3 +1,16 @@
+/* IMPORTANT: USE THIS LINK BEFORE ALL OTHER CSS REFERENCES AT THE BEGINNING OF THE HTML DOCUMENT. */
+
+/* OPTIONAL CDN (CONTENT DELIVERY NETWORK) REFERENCE:
+ * <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+ */
+
+/*
+ * HTML stylesheet reference:
+ * Use this link inside the <head> of an HTML file to reference this normalize.css file.
+ * Place it before links to your other stylesheets so those styles can override normalization rules.
+ * <link rel="stylesheet" href="styles/normalize.css">
+ */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document

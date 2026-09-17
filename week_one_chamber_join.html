@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare non-profit, silver, and gold memberships and complete the Cedar Harbor Chamber demo membership application.">
+  <meta name="author" content="Cedar Harbor Chamber of Commerce">
+  <meta name="theme-color" content="#163f39">
+  <title>Join | Cedar Harbor Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/week_one_chamber.css">
+  <script src="scripts/week_one_chamber_members.js" defer></script>
+  <script src="scripts/week_one_chamber.js" defer></script>
+</head><body>
+  <a class="skip-link" href="#main_content">Skip to main content</a>
+  <div class="announcement">Local roots. Lasting connections. <a href="week_one_chamber_join.html">Become a member <span aria-hidden="true">↗</span></a></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="week_one_chamber_home.html" aria-label="Cedar Harbor Chamber of Commerce home">
+        <span class="brand-mark" aria-hidden="true">CH<span>〰</span></span>
+        <span>Cedar Harbor<small>CHAMBER OF COMMERCE</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary_navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="primary_navigation" aria-label="Primary navigation">
+        <a href="week_one_chamber_home.html">Home</a>
+        <a href="week_one_chamber_discover.html">Discover</a>
+        <a href="week_one_chamber_directory.html">Directory</a>
+        <a href="week_one_chamber_join.html" aria-current="page">Join</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main_content" class="container">
+    <section class="page-intro"><p class="eyebrow">YOUR BUSINESS. OUR COMMUNITY.</p><h1>Grow together.</h1><p>Choose your membership and take the first step toward new connections.</p></section>
+    <section aria-labelledby="membership_title"><div class="section-heading"><div><p class="eyebrow">A MEMBERSHIP THAT FITS</p><h2 id="membership_title">Three ways to belong.</h2></div><p class="muted">Illustrative annual membership rates.</p></div><div class="three-column membership-grid">
+      <article class="membership-card"><p class="tag">For community organizations</p><h3>Non-profit</h3><p class="price">Free<small>for eligible non-profits</small></p><p>Supporting the people who support our neighbors.</p><ul><li>Member directory listing</li><li>Community networking invitations</li><li>Chamber newsletter and publications</li><li>Volunteer opportunity promotions</li></ul><details><summary>See all non-profit benefits</summary><p>Eligible non-profit organizations receive a directory listing, newsletter access, invitations to networking events, and volunteer announcements in chamber communications.</p></details><a href="#membership_application" class="button button-secondary" data-select-level="Non-profit">Choose non-profit</a></article>
+      <article class="membership-card"><p class="tag">For growing local businesses</p><h3>Silver</h3><p class="price">$150<small>per year</small></p><p>Build your network and develop your next chapter.</p><ul><li>Everything in non-profit membership</li><li>Monthly skills training</li><li>Quarterly networking luncheons</li><li>One social media feature each year</li></ul><details><summary>See all silver benefits</summary><p>Silver members receive all baseline benefits, one annual social feature, monthly business skills workshops, and access to quarterly member luncheons.</p></details><a href="#membership_application" class="button button-secondary" data-select-level="Silver">Choose silver</a></article>
+      <article class="membership-card featured"><p class="tag">For community champions</p><h3>Gold</h3><p class="price">$350<small>per year</small></p><p>Raise your profile and help shape what comes next.</p><ul><li>Everything in silver membership</li><li>Rotating homepage business spotlight</li><li>Priority event sponsorship opportunities</li><li>Quarterly advertising and social features</li></ul><details><summary>See all gold benefits</summary><p>Gold members receive every silver benefit, rotating homepage spotlights, quarterly social and publication advertising, and priority consideration for community event sponsorships.</p></details><a href="#membership_application" class="button" data-select-level="Gold">Choose gold</a></article>
+    </div></section>
+    <section class="section application-layout" aria-labelledby="application_title"><div><p class="eyebrow">LET’S GET ACQUAINTED</p><h2 id="application_title">Tell us about yourself.</h2><p>Complete the application to preview your membership request.</p><div class="application-note"><h3>A quick note</h3><p>This is a learning-project demonstration, not a real application. Use sample information only. Nothing is sent to a chamber or stored on a server, and no payment is collected.</p><p>Fields marked with an asterisk (*) are required.</p></div></div>
+      <form id="membership_application" action="week_one_chamber_thank_you.html" method="post">
+        <fieldset><legend>Your contact details</legend><div class="form-grid"><label>First name *<input name="first_name" id="first_name" autocomplete="given-name" required maxlength="60"></label><label>Last name *<input name="last_name" autocomplete="family-name" required maxlength="60"></label></div><label>Title or position<input name="position" autocomplete="organization-title" pattern="[A-Za-z \-]{7,}" aria-describedby="position_hint" title="Use at least seven letters, spaces, or hyphens." placeholder="e.g., Business owner" maxlength="100"></label><p id="position_hint" class="muted">Optional. Use at least seven letters, spaces, or hyphens.</p><label>Email *<input name="email" type="email" autocomplete="email" placeholder="alex@example.com" required maxlength="120"></label><label>Mobile phone *<input name="phone" type="tel" autocomplete="tel" required maxlength="30"></label></fieldset>
+        <fieldset><legend>Your organization</legend><label>Business or organization name *<input name="organization" autocomplete="organization" required maxlength="100"></label><label>Membership level *<select name="membership" id="membership_level" required><option value="">Choose a level</option><option value="Non-profit">Non-profit — free</option><option value="Silver">Silver — $150 per year</option><option value="Gold">Gold — $350 per year</option></select></label><label>About your organization<textarea name="description" rows="4" maxlength="1000" placeholder="What do you do, and what would you like to gain from membership?"></textarea></label></fieldset>
+        <input type="hidden" name="timestamp" id="application_timestamp">
+        <label class="checkbox-label"><input type="checkbox" name="demo_acknowledgement" required> I understand this is a fictional demonstration and have used sample information. *</label>
+        <p id="form_error" class="form-error" role="alert" hidden></p>
+        <button class="button" type="submit" disabled>Preview my application <span aria-hidden="true">↗</span></button>
+        <noscript><p class="form-error">JavaScript is required to preview this demo application without placing contact information in the address bar. Please enable it before submitting.</p></noscript>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="footer-brand" href="week_one_chamber_home.html">Cedar Harbor</a><p>A stronger community starts with<br>a connected local economy.</p></div>
+      <div><h2>Visit the chamber</h2><address>100 Harbor Walk<br>Cedar Harbor, CA 93000<br><a href="mailto:hello@cedarharbor.example">hello@cedarharbor.example</a><br><a href="tel:+18055550100">(805) 555-0100</a></address><p>Monday–Friday · 9 a.m.–4 p.m.</p></div>
+      <div><h2>Explore</h2><ul class="footer-links"><li><a href="week_one_chamber_discover.html">Our community</a></li><li><a href="week_one_chamber_directory.html">Member directory</a></li><li><a href="week_one_chamber_join.html">Membership benefits</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><p>© <span data-current-year></span> Cedar Harbor Chamber · WDD 231 · Week One</p><p>Last modified: <span data-last-modified></span></p></div>
+    <p class="container demo-note">Educational demonstration: Cedar Harbor, its statistics, events, businesses, addresses, and membership rates are fictional. Applications are not sent or saved to a server. Photos are illustrative; <a href="week_one_chamber_sources.md">project notes and image credits</a>.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Raymond Amande’s WDD 231 course home: a personal introduction, course certificate progress, and links to the chamber and final projects.">
+  <meta name="author" content="Raymond Amande">
+  <meta name="theme-color" content="#1f3240">
+  <title>Raymond Amande | WDD 231 Course Home</title>
+  <link rel="icon" href="images/course_home_logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/course_home_navigation.js" defer></script>
+  <script src="scripts/course_home_date.js" defer></script>
+  <script src="scripts/course_home_courses.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main_content">Skip to main content</a>
+  <header class="course-header">
+    <div class="page-width header-inner">
+      <a class="identity" href="index.html" aria-label="Raymond Amande course home">
+        <img src="images/course_home_logo.svg" alt="" width="44" height="44">
+        <span>Raymond Amande</span>
+      </a>
+      <button id="menu_button" class="menu-button" type="button" aria-controls="course_navigation" aria-expanded="false" aria-label="Open navigation menu" hidden><span class="hamburger" aria-hidden="true">☰</span></button>
+    </div>
+  </header>
+  <nav id="course_navigation" class="course-navigation" aria-label="Primary navigation">
+    <div class="page-width navigation-links">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="week_one_chamber_home.html">Chamber</a>
+      <a href="course_home_final.html">Final</a>
+    </div>
+  </nav>
+  <main id="main_content" class="page-width">
+    <div class="page-heading"><p class="eyebrow">WDD 231 · WEB FRONTEND DEVELOPMENT I</p><h1>Home</h1><p>Learning to build thoughtful, accessible experiences for the web.</p></div>
+    <div class="home-layout">
+      <section class="panel about-panel" aria-labelledby="about_heading">
+        <h2 id="about_heading">About Me</h2>
+        <div class="panel-content">
+          <p class="intro-line">Hello, I’m Raymond.</p>
+          <p>I’m a web development student based in California, United States. This course home page brings together my certificate coursework and the projects I’m building in WDD 231.</p>
+          <p>My work in this class focuses on responsive design, accessible interfaces, and using JavaScript to create useful interactions. Explore my chamber project or browse the certificate courses below.</p>
+          <div class="about-highlight"><span class="highlight-label">CURRENT FOCUS</span><p>Web Frontend Development I<br><strong>WDD 231</strong></p></div>
+        </div>
+      </section>
+      <section class="panel photo-panel" aria-labelledby="photo_heading">
+        <h2 id="photo_heading">Student Photo</h2>
+        <figure class="student-photo"><img src="images/course_home_personal.jpg" alt="Personal photo supplied by Raymond: two people seated together at a restaurant" width="800" height="640"><figcaption>Personal photo shared by Raymond.</figcaption></figure>
+      </section>
+      <section class="panel certificate-panel" aria-labelledby="certificate_heading">
+        <h2 id="certificate_heading">Web Certificate Courses</h2>
+        <div class="panel-content">
+          <p class="certificate-intro">Web and Computer Programming</p>
+          <div class="course-filters" role="group" aria-label="Filter certificate courses">
+            <button type="button" data-course-filter="All" aria-pressed="true">All Courses</button>
+            <button type="button" data-course-filter="CSE" aria-pressed="false">CSE Courses</button>
+            <button type="button" data-course-filter="WDD" aria-pressed="false">WDD Courses</button>
+          </div>
+          <div id="course_cards" class="course-grid"></div>
+          <div class="course-summary" role="status" aria-live="polite"><p id="credit_total"></p><p id="completion_summary"></p></div>
+          <noscript><p>Enable JavaScript to display the certificate courses, filter them, and calculate their credits.</p></noscript>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="course-footer">
+    <div class="page-width">
+      <div class="social-links" role="group" aria-label="Social links">
+        <a href="https://github.com/RaymondAngel/https---github.com-RaymondAngel-wdd231" target="_blank" rel="noopener noreferrer" aria-label="GitHub course repository (opens in a new tab)"><img src="images/course_home_github.svg" alt="" width="24" height="24"><span>GitHub</span></a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn placeholder, personal profile pending (opens in a new tab)"><img src="images/course_home_linkedin.svg" alt="" width="24" height="24"><span>LinkedIn</span></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram placeholder (opens in a new tab)"><img src="images/course_home_instagram.svg" alt="" width="24" height="24"><span>Instagram</span></a>
+      </div>
+      <p><span id="currentyear"></span> · Raymond Amande · California, United States</p>
+      <p id="lastModified">Last modified date loads with JavaScript.</p>
+      <small>LinkedIn and Instagram are platform placeholders, not personal profiles.</small>
+    </div>
+  </footer>
+</body>
+</html>

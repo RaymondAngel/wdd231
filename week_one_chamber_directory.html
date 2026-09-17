@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search the fictional Cedar Harbor Chamber member directory by business name, category, or membership level.">
+  <meta name="author" content="Cedar Harbor Chamber of Commerce">
+  <meta name="theme-color" content="#163f39">
+  <title>Directory | Cedar Harbor Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/week_one_chamber.css">
+  <script src="scripts/week_one_chamber_members.js" defer></script>
+  <script src="scripts/week_one_chamber.js" defer></script>
+</head><body>
+  <a class="skip-link" href="#main_content">Skip to main content</a>
+  <div class="announcement">Local roots. Lasting connections. <a href="week_one_chamber_join.html">Become a member <span aria-hidden="true">↗</span></a></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="week_one_chamber_home.html" aria-label="Cedar Harbor Chamber of Commerce home">
+        <span class="brand-mark" aria-hidden="true">CH<span>〰</span></span>
+        <span>Cedar Harbor<small>CHAMBER OF COMMERCE</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary_navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="primary_navigation" aria-label="Primary navigation">
+        <a href="week_one_chamber_home.html">Home</a>
+        <a href="week_one_chamber_discover.html">Discover</a>
+        <a href="week_one_chamber_directory.html" aria-current="page">Directory</a>
+        <a href="week_one_chamber_join.html">Join</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main_content" class="container">
+    <section class="page-intro"><p class="eyebrow">LOCAL PEOPLE. EXCEPTIONAL POSSIBILITIES.</p><h1>Meet our members.</h1><p>Find your next favorite place, trusted partner, or friendly neighbor.</p></section>
+    <section aria-label="Member directory" class="directory-section">
+      <div class="directory-tools">
+        <label class="search-field">Search members<input type="search" id="member_search" placeholder="Name, service, or neighborhood…" autocomplete="off"></label>
+        <label>Business category<select id="category_filter"><option value="">All categories</option><option>Community organizations</option><option>Food & drink</option><option>Hospitality</option><option>Professional services</option><option>Shopping & recreation</option></select></label>
+        <label>Membership<select id="level_filter"><option value="">All levels</option><option>Non-profit</option><option>Silver</option><option>Gold</option></select></label>
+      </div>
+      <div class="directory-summary"><p id="member_count" role="status"></p><div class="view-controls" role="group" aria-label="Directory view"><button id="grid_view" type="button" aria-pressed="true">Grid</button><button id="list_view" type="button" aria-pressed="false">List</button></div></div>
+      <div id="member_directory" class="member-grid"></div>
+      <p id="no_results" class="empty-state" hidden>No matching members. Try a different search or <button id="clear_filters" type="button" class="text-button">clear the filters</button>.</p>
+      <noscript><section><h2>Our members</h2><ul><li><strong>Harbor & Hearth Café</strong> — Food & drink — 18 Harbor Walk — (805) 555-0101</li><li><strong>Cedar Coast Outfitters</strong> — Shopping & recreation — 42 Bay Street — (805) 555-0102</li><li><strong>Green Basket Market</strong> — Food & drink — 7 Market Square — (805) 555-0103</li><li><strong>Seabright Creative Studio</strong> — Professional services — 65 Cedar Avenue — (805) 555-0104</li><li><strong>Harbor House Inn</strong> — Hospitality — 12 Lighthouse Lane — (805) 555-0105</li><li><strong>Cedar Harbor Community Pantry</strong> — Community organizations — 90 Community Way — (805) 555-0106</li><li><strong>Bayview Business Advisors</strong> — Professional services — 33 Bay Street — (805) 555-0107</li></ul><p>Enable JavaScript to search and switch directory views.</p></section></noscript>
+    </section>
+    <section class="cta-panel section-small"><div><h2>There’s a place for your business.</h2><p>Join a network that believes in growing together.</p></div><a class="button" href="week_one_chamber_join.html">Become a member ↗</a></section>
+  </main>
+  <dialog id="member_dialog" aria-labelledby="member_dialog_title"><div class="dialog-inner"><button type="button" class="dialog-close" aria-label="Close member details">×</button><p class="eyebrow">MEMBER PROFILE</p><h2 id="member_dialog_title"></h2><div id="member_dialog_content"></div><p class="muted">This is a fictional business profile for an educational demonstration.</p></div></dialog>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="footer-brand" href="week_one_chamber_home.html">Cedar Harbor</a><p>A stronger community starts with<br>a connected local economy.</p></div>
+      <div><h2>Visit the chamber</h2><address>100 Harbor Walk<br>Cedar Harbor, CA 93000<br><a href="mailto:hello@cedarharbor.example">hello@cedarharbor.example</a><br><a href="tel:+18055550100">(805) 555-0100</a></address><p>Monday–Friday · 9 a.m.–4 p.m.</p></div>
+      <div><h2>Explore</h2><ul class="footer-links"><li><a href="week_one_chamber_discover.html">Our community</a></li><li><a href="week_one_chamber_directory.html">Member directory</a></li><li><a href="week_one_chamber_join.html">Membership benefits</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><p>© <span data-current-year></span> Cedar Harbor Chamber · WDD 231 · Week One</p><p>Last modified: <span data-last-modified></span></p></div>
+    <p class="container demo-note">Educational demonstration: Cedar Harbor, its statistics, events, businesses, addresses, and membership rates are fictional. Applications are not sent or saved to a server. Photos are illustrative; <a href="week_one_chamber_sources.md">project notes and image credits</a>.</p>
+  </footer>
+</body>
+</html>
