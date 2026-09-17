@@ -5,6 +5,23 @@
 The supplied course audit flagged three missing Google Fonts links. All four chamber pages and five original week-one pages now include the Google CSS2 stylesheet and both required preconnect links, with crossorigin for fonts.gstatic.com. External CSS applies Lora and Open Sans (400/700), with system fallbacks and display=swap. Normalize remains the first stylesheet; no @import is used. The Google endpoint returned HTTP 200 with both font families. Colors are unchanged because the supplied contrast audit passed. These are local corrections; rerun the published audit after uploading the updated files.
 
 ## Open the assignment
+## Supplied 30-point rubric review
+
+| Criterion | Evidence and remaining verification |
+| --- | --- |
+| Page audit (10) | Supplied audit passed all checks except Google Fonts; all three missing links are corrected locally. Rerun on the published update to confirm zero errors. |
+| Design (4) | Shared spacing/alignment, fluid card grid, responsive layout, wrapping text, flexible desktop header, and shrinkable footer columns. Visual mobile/desktop and no-horizontal-scroll checks remain pending. |
+| Lighthouse (2) | Mobile Accessibility, Best Practices, and SEO must each reach 95+. No new Lighthouse report was run; scores are not claimed. |
+| Contrast (1) | Supplied audit reports passing AA text pairs. Palette unchanged. Confirm actual rendered results in CSS Overview. |
+| Navigation (1) | Responsive menu, Escape handling, breakpoint reset, and active-page aria-current indication. |
+| Page weight (1) | All local directory load assets total 35,107 bytes after this review, including all seven icons. External Google Fonts are additional; verify total transferred initial-load bytes at or below 500 kB in DevTools Network. Social preview is metadata, not an on-page image. |
+| JSON (3) | data/members.json has seven records, each with name, address, phone, website, image filename, and numeric membership level. Required-field and image-file checks passed. |
+| Async/await (1) | getMemberData() awaits fetch() and response.json(), checks response.ok, and handles errors/retry. |
+| Display (3) | DOM-mock test rendered seven member cards from the current JSON; card grid adapts to available width. |
+| Toggle (4) | DOM-mock tests passed grid/list switching and pressed-state changes. List CSS hides business images and descriptions. |
+
+Eight local behavior/source assertions passed for rendering, toggle state, failure/retry, and image hiding. Strengthened shared CSS to prevent long text or desktop header/footer columns from forcing horizontal overflow; this is not a substitute for rendered testing. No new published audit, browser score, or submission is claimed. These changes preserve the existing BYU course architecture and styling.
+
 
 Open directory.html with VS Code Live Server. The target published address is https://RaymondAngel.github.io/wdd231/chamber/directory.html. This address has not been verified online for this new page.
 

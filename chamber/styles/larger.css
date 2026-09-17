@@ -1,14 +1,14 @@
 /* Shared chamber layout enhancements; loaded after small.css. */
 @media (min-width: 700px) {
   .container { width: min(1160px, calc(100% - 3rem)); }
-  .header-inner { flex-wrap: nowrap; padding-block: 1.4rem; }
+  .header-inner { flex-wrap: wrap; padding-block: 1.4rem; }
   .brand { font-size: 1.6rem; }
   .menu-button { display: none; }
   .menu-enabled #primary_navigation:not(.is-open), #primary_navigation { display: block; width: auto; }
   .navigation-links { flex-direction: row; gap: .25rem; }
   .navigation-links a { border-left: 0; border-bottom: 3px solid transparent; font-size: .9rem; }
   .navigation-links a[aria-current='page'] { border-bottom-color: var(--forest); }
-  .footer-grid { grid-template-columns: 1fr auto 1fr; align-items: start; }
+  .footer-grid { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: start; }
   .is-list .member-card { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, .8fr); gap: .2rem 1.5rem; align-items: start; }
   .is-list .member-card h2 { grid-column: 1; }
   .is-list .member-category, .is-list .member-level { grid-column: 1; }
