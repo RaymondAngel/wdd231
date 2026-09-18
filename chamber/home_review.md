@@ -17,6 +17,12 @@ Open [the chamber home page](index.html).
 
 ## Verification
 
+### Rubric follow-up (September 18, 2026)
+
+The supplied rubric requires the call to action to sit over the hero image. Updated the mobile hero so its image fills the hero behind the content, with a dark overlay for readable text. The image uses `object-fit: cover` to preserve its proportions, and the content determines the hero height so text can wrap on narrow screens. Desktop styling remains in the existing media query.
+
+The source review confirms current events, active Home wayfinding, responsive navigation, live current-weather and three-day forecast requests, and three randomly selected unique gold/silver members from the JSON source. The saved Lighthouse and course-audit results below predate this CSS adjustment. A fresh browser, Lighthouse, CSS Overview, and total network-weight check could not be run during this follow-up because the connected browser was unavailable and outbound requests failed; do not treat the earlier reports as a new audit of this change.
+
 Live current and forecast endpoints both returned California City data. Automated Chrome checks passed at widths 320, 390, 768, and 1440 pixels with no horizontal overflow. Checked navigation links, mobile menu and Escape key, three unique eligible spotlights, variation across 20 selections, year-boundary forecast dates, and error/retry states. No JavaScript runtime errors occurred. Desktop and mobile screenshots were visually inspected.
 
 Lighthouse completed in an isolated incognito Chrome session: **100 Accessibility, 100 Best Practices, and 100 SEO on both mobile and desktop**, with no remaining failed audits. Reports: [mobile](reports/lighthouse_mobile.html), [desktop](reports/lighthouse_desktop.html). The audit runner encountered a Windows temporary-profile cleanup error after saving both completed reports; report generation and scores were unaffected.
