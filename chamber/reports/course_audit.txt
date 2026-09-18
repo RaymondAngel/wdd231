@@ -1,0 +1,320 @@
+Page:
+🔗 https://RaymondAngel.github.io/wdd231/chamber/
+Repository:
+🔗 https://github.com/raymondangel/wdd231
+✅ Pass
+❌ Issue
+➡️ Review
+Naming Conventions
+images Folder
+✅
+A subfolder named images is required.
+styles Folder
+✅
+A subfolder named styles is required.
+scripts Folder
+✅
+A subfolder named scripts is required.
+Files
+✅
+
+All file names follow the course's naming conventions.
+
+HTML Document
+W3C HTML Validation
+✅
+
+No HTML validation errors were found. Use the link below to check for warnings or other useful information.
+
+🔗 HTML Validation Service Report on w3.org
+
+doctype
+✅
+
+An HTML5 doctype is required and is the first line of the document.
+
+<html>
+✅
+An all enclosing <html> element is required and a lang attribute must be applied to the opening <html> tag.
+<head>
+✅
+An enclosing <head> element (with opening and closing tags) must exist inside the <html> element and must come before the <body> element.
+<body>
+✅
+An enclosing <body> element (with opening and closing tags) must exist inside the <html> element, appear after the </head>, and before the </html> closing tag.
+lowercase HTML tags
+✅
+
+It is best practice to use lowercase for all HTML tags.
+
+HTML attribute spacing
+✅
+
+It is best practice to have no spaces around the equal sign in attributes, e.g., <html lang="en-US">
+
+<head> Elements
+Meta Charset
+✅
+The meta charset attribute must be properly declared.
+<meta charset="UTF-8">
+Meta Viewport
+✅
+The meta viewport attribute must be properly declared.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+➡️ Review: California City Chamber of Commerce | Home
+Title must include the following: and chamber name
+✅ <title> exists within the <head> element..
+✅ Title content meets basic content requirements.
+Meta Description
+➡️ Requires Content Review: Connect with California City businesses, explore community events, check local weather, and join our chamber of commerce.
+A meta description should be 50-160 characters, descriptive, and unique to the page.
+✅ The meta description exists within the <head> element. (121 characters)
+Meta Author
+➡️ Requires Content Review: Raymond Amande
+A meta author should be the student's name.
+✅ <meta name="author"> exists within the <head> element.
+Favicon
+✅
+Provide a favicon using <link rel="icon" href="/path/favicon.ico"> (or PNG/SVG).
+✅ Found favicon in <head>: favicon.ico
+og:title
+➡️ Requires Content Review: ✅ Home | California City Chamber of Commerce
+– Length 42 characters
+The og:title content provides the title of your page when shared on social media and should use natural language between 40-60 characters. It can be similar to the <title> tag content.
+og:description
+➡️ Requires Content Review: ✅ Connect with California City businesses, explore community events, check local weather, and join our chamber of commerce.
+– Length 121 characters
+
+The og:description content provides a brief summary of your page when shared on social media and should use natural language between 50-160 characters. Make it human and persuasive
+og:image
+✅
+Provide a working meta property="og:image" using an absolute URL value.
+✅ https://RaymondAngel.github.io/wdd231/chamber/images/community_market.jpg
+Ideally, the og:image content should be a full, canonical URL to an image that is at least 1200x630 pixels for best display on high resolution devices. It should be on the same github.io domain and located in an images/ subfolder to ensure it can be accessed and displayed properly when shared on social media.
+og:url
+✅
+Provide a working meta property="og:url" content value that is an absolute URL.
+✅ https://RaymondAngel.github.io/wdd231/chamber/index.html
+The og:url content should be a full, canonical URL that helps social platforms with a shareable version of the page to associate engagement with the current page within the site.
+<body> Elements
+Elements Used
+
+Found 27 different element types on the page:
+<a> (16), <address> (1), <article> (2), <body> (1), <br> (5), <button> (3), <div> (14), <footer> (1), <h1> (1), <h2> (4), <h3> (3), <head> (1), <header> (1), <html> (1), <img> (6), <link> (7), <main> (1), <meta> (16), <nav> (1), <noscript> (1), <p> (24), <script> (3), <section> (4), <small> (1), <span> (2), <title> (1), <ul> (1)
+<header>
+✅
+While using a <header> element on all HTML pages is not a strict rule, it's a good practice to consider using it where it makes sense to provide introductory or contextual content at the top of a page, form, or section. More than one header element is allowed on a single page.
+✅ Found a <header> element.
+<nav>
+✅
+While using a <nav> element on all HTML pages is not a strict rule, it's a good practice to consider using it where it makes sense to provide navigation links for the site or page. More than one nav element is allowed on a single page.
+✅ Found 1 <nav> element.
+<main>
+✅
+Document must contain a <main> element.
+✅ Found a <main> element.
+<footer>
+✅
+While using a <footer> element on all HTML pages is not a strict rule, it's a good practice to consider using it where it makes sense to provide closing or contextual content at the bottom of a page, form, or section. More than one footer element is allowed on a single page, for example, you might have sections with header, main, and footer elements.
+✅ Found 1 <footer> element.
+nav <a> links
+
+Found 16 <a> elements on the page.
+Link Text
+href
+target
+Skip to main content
+✅ #main_content
+None
+Directory
+✅ directory.html
+None
+Home
+✅ index.html
+None
+Discover
+✅ discover.html
+None
+Join
+✅ join.html
+None
+Join the chamber
+✅ join.html
+None
+Find a local business
+✅ directory.html
+None
+OpenWeatherMap
+✅ https://openweathermap.org/
+None
+View all members
+✅ directory.html
+None
+hello@californiacitychamber.example
+✅ mailto:hello@californiacitychamber.example
+None
+(805) 555-0100
+✅ tel:+18055550100
+None
+(empty)
+✅ https://www.youtube.com/
+_blank
+(empty)
+✅ https://x.com/
+_blank
+(empty)
+✅ https://www.linkedin.com/
+_blank
+Project notes and image credits
+✅ home_review.md
+None
+<h1>
+✅
+➡️ Requires Content Review: California City Chamber of Commerce
+Document must contain a single <h1> element inside the <main> element. The content should closely match the page title.
+Images
+All image files must be ✔correctly referenced, ✔be optimized(<= 125 kB), ✔have alt attribute.
+
+
+File Reference
+Size
+Alt Text
+✅ images/chamber_logo.svg
+✅ 0 kB
+✅ "No alt text"
+✅ images/community_market.jpg
+✅ 119 kB
+✅ "Shoppers and local vendors gathering at an outdoor farmers market"
+✅ images/chamber_logo.svg
+✅ 0 kB
+✅ "No alt text"
+✅ images/youtube.svg
+✅ 0 kB
+✅ "No alt text"
+✅ images/twitter.svg
+✅ 0 kB
+✅ "No alt text"
+✅ images/linkedin.svg
+✅ 0 kB
+✅ "No alt text"
+CSS
+CSS Files
+The following CSS files were referenced in the HTML:
+styles/normalize.css
+styles/small.css
+styles/larger.css
+Google Fonts API
+✅
+Use Google Fonts (fonts.googleapis.com/...) and include all provided preconnect links
+Using the @import method is not allowed.
+
+✅ Found 1 Google Fonts stylesheet link, and required preconnects.
+   Families Used: Lora:wght@400;700, Open+Sans:wght@400;700
+
+W3C CSS Validation
+✅
+
+No CSS validation errors were found. Use the link below to check for warnings or other useful information.
+
+••• ⚠️ Warnings Found: 17 •••
+
+🔗 CSS Validation Service Report on jigsaw.w3.org
+Parse Errors due to a modern nested CSS structure can be ignored.
+Warnings about the use of CSS Variables can be ignored.
+
+Inline Styles
+✅
+All CSS must be in external stylesheet files.
+Inline styles using the style attribute are not allowed.
+✅ No inline styles found.
+Embedded Styles
+✅
+Embedded styles using <style> tags are not allowed.
+✅ No embedded <style> tags found.
+CSS Frameworks
+✅
+CSS frameworks or utility libraries (Bootstrap, Tailwind, Foundation, etc.) are not permitted for this course. All styling must be custom CSS.
+✅ No CSS frameworks or framework use detected.
+!important
+✅
+The use of !important in CSS is not allowed.
+Use proper specificity and cascading to achieve desired styles.
+✅ No use of !important found in CSS...
+CSS Statistics
+Total Selectors:
+117
+Total Rules:
+103 ⚠️ High
+Total Declarations:
+285 ⚠️ High
+Repeated Declarations:
+0
+Color Types Used:
+var, hex, named, rgb
+⚠️ Note: Your CSS currently contains over 250 declarations. For a three to five page website, this may mean there are unnecessary or repeated styles. Please review your CSS to remove unused rules, reduce repetition, and simplify your styles to improve maintainability and performance.
+⚠️ Note: Using multiple color types may indicate inconsistent styling.
+Consider standardizing your color approach.
+JavaScript
+External
+✅
+All JavaScript must be in external files.
+✅ All JavaScript is in external files.
+No onClick Attributes
+✅
+JavaScript event handlers must be added via external JS files, not HTML attributes.
+✅ No elements with onclick attributes found.
+document.write
+✅
+The document.write() method must not be used in JavaScript.
+✅ No use of document.write() found in external JS files.
+No jQuery
+✅
+jQuery must not be used in JavaScript.
+✅ No use of jQuery found.
+Referenced js Files
+✅ (file exists) scripts/chamber.js • Location: ✅ <head> • ✅ (defer)
+✅ (file exists) scripts/home_weather.js • Location: ✅ <head> • ✅ (defer)
+✅ (file exists) scripts/home_spotlights.js • Location: ✅ <head> • ✅ (defer)
+Accessibility
+Color Contrast (WCAG AA)
+Colors Used:
+Text Colors: colors
+body – var(--ink) | rgb(32 45 41)
+a, .menu-button, .eyebrow, .view-controls button, .retry-button, .button, .member-level, .home_event .event_time – var(--forest) | rgb(22 63 57)
+.page-intro > p:last-child, #directory_status, .member-card .member-category, .portrait-note, .event_note, .forecast_note, .weather_credit, #weather_status, #spotlight_status – var(--muted) | rgb(89 102 96)
+.view-controls button[aria-pressed='true'], .button, .site-footer, .home_hero, .hero_caption – #ffffff | rgb(255 255 255)
+.member-level[data-level='3'] – #5c4015 | rgb(92 64 21)
+.member-level[data-level='2'] – #344850 | rgb(52 72 80)
+.site-footer a, .hero_content .eyebrow – #f1d6a0 | rgb(241 214 160)
+.footer-note – #dce5d9 | rgb(220 229 217)
+.hero_button – var(--forest-dark) | rgb(16 49 44)
+Background Colors:
+body, .menu-button – var(--paper) | rgb(251 250 246)
+.skip-link, .site-header, .view-controls button, .retry-button, .button, .member-card, .future-page, .home_panel – #ffffff | rgb(255 255 255)
+.brand img, .social-links a, .hero_button – var(--gold) | rgb(232 184 91)
+.navigation-links a:hover, .navigation-links a[aria-current='page'], .demo-note, .view-controls button:hover, .retry-button:hover, .member-image, .member-level, .is-list .member-card:nth-child(even) – var(--sage) | rgb(237 241 233)
+.view-controls button[aria-pressed='true'], .button – var(--forest) | rgb(22 63 57)
+.member-level[data-level='3'] – #f6e4be | rgb(246 228 190)
+.member-level[data-level='2'] – #e8ecee | rgb(232 236 238)
+.site-footer, .home_hero, .hero_caption – var(--forest-dark) | rgb(16 49 44)
+.hero_button:hover – #f1d6a0 | rgb(241 214 160)
+
+Color Contrast Ratios:
+
+Text must have sufficient contrast with its background at the WCAG AA level.
+
+Use CSS Overview in the browser's DevTools for details on actual, rendered color contrast.
+
+Text Color	Background	Ratio	Required	Status
+ rgb(0 0 0)	 rgb(255 255 255)	21.00:1	4.5:1 (normal)	🙂 OK
+ rgb(22 63 57)	 rgb(255 255 255)	11.64:1	4.5:1 (normal)	🙂 OK
+ rgb(22 63 57)	 rgb(251 250 246)	11.14:1	4.5:1 (normal)	🙂 OK
+ rgb(22 63 57)	 rgb(237 241 233)	10.18:1	4.5:1 (normal)	🙂 OK
+ rgb(241 214 160)	 rgb(16 49 44)	9.93:1	4.5:1 (normal)	🙂 OK
+ rgb(255 255 255)	 rgb(16 49 44)	14.02:1	4.5:1 (normal)	🙂 OK
+ rgb(16 49 44)	 rgb(232 184 91)	7.64:1	4.5:1 (normal)	🙂 OK
+ rgb(32 45 41)	 rgb(255 255 255)	14.30:1	4.5:1 (normal)	🙂 OK
+ rgb(89 102 96)	 rgb(255 255 255)	6.01:1	4.5:1 (normal)	🙂 OK
+ rgb(32 45 41)	 rgb(251 250 246)	13.69:1	4.5:1 (normal)	🙂 OK
+ rgb(89 102 96)	 rgb(251 250 246)	5.75:1	4.5:1 (normal)	🙂 OK

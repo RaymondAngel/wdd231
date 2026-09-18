@@ -21,7 +21,11 @@ Live current and forecast endpoints both returned California City data. Automate
 
 Lighthouse completed in an isolated incognito Chrome session: **100 Accessibility, 100 Best Practices, and 100 SEO on both mobile and desktop**, with no remaining failed audits. Reports: [mobile](reports/lighthouse_mobile.html), [desktop](reports/lighthouse_desktop.html). The audit runner encountered a Windows temporary-profile cleanup error after saving both completed reports; report generation and scores were unaffected.
 
-The published course audit will be recorded after deployment.
+The official course audit was run on the published site. File naming, required folders, metadata checks, local links, optimized images, JavaScript placement, Google Fonts, and WCAG AA contrast checks passed. W3C CSS validation reported zero errors (17 warnings); the audit also gives advisory notices about the shared stylesheet rule count. These styles serve both the home page and member directory.
+
+The audit found a missing initial src on the hidden weather icon. This was corrected and W3C validation of the final HTML returned **zero errors**. The final published audit confirmed **zero HTML validation errors and zero CSS validation errors**, with no issue markers beyond the report legend. Advisory CSS warnings and manual content-review prompts remain. See the [full course audit](reports/course_audit.txt).
+
+The published home page was separately verified in Chrome: live California City conditions, three forecast days, three eligible spotlights, no JavaScript runtime errors, and working links/navigation on all four chamber pages.
 
 ## Files
 

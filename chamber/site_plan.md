@@ -26,9 +26,9 @@ The directory script uses await fetch(), response.ok, await response.json(), rec
 
 Implemented: independent folders; directory.html; shared page chrome and styles; common navigation/footer behavior; JSON loading and view controls; seven complete records with California City locality; distinct business images; favicon; locally hosted social-preview asset and static metadata; reusable lesson notes.
 
-Home, Discover, and Join are clearly labeled future-milestone page templates with the same header/footer/navigation. Their earlier prototype content remains in the original root files, updated to California City with sourced community history and clearly labeled demonstration content; it is not copied into the directory body. Full migration/development of those page bodies belongs to their later milestones.
+Discover and Join are clearly labeled future-milestone page templates with the same header/footer/navigation. The Home page is completed for W03. Their earlier prototype content remains in the original root files, updated to California City with sourced community history and clearly labeled demonstration content; it is not copied into the directory body. Full migration/development of those page bodies belongs to their later milestones.
 
-Local tests passed; rendered browser/DevTools contrast, Lighthouse, and official published audit reports remain pending, along with publishing, group sharing, and Canvas submission. See directory_review.md for evidence and the remaining steps. No existing chamber project files have been replaced.
+W03 home-page browser tests, Lighthouse reports, and publication are complete. The final HTML has zero W3C errors. See home_review.md for current evidence and directory_review.md for the earlier directory review. Course group sharing and Canvas submission require the course-account context.
 
 ## References
 
