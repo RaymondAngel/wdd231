@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="California City Chamber of Commerce course-project home template. Visit the member directory while future chamber milestones are developed.">
+  <meta name="description" content="Connect with California City businesses, explore community events, check local weather, and join our chamber of commerce.">
   <meta name="author" content="Raymond Amande">
   <meta name="theme-color" content="#163f39">
   <meta property="og:title" content="Home | California City Chamber of Commerce">
-  <meta property="og:description" content="California City Chamber of Commerce course-project home template. Visit the member directory while future chamber milestones are developed.">
-  <meta property="og:image" content="https://RaymondAngel.github.io/wdd231/chamber/images/directory_social.jpg">
+  <meta property="og:description" content="Connect with California City businesses, explore community events, check local weather, and join our chamber of commerce.">
+  <meta property="og:image" content="https://RaymondAngel.github.io/wdd231/chamber/images/community_market.jpg">
   <meta property="og:image:type" content="image/jpeg">
-  <meta property="og:image:width" content="1729">
-  <meta property="og:image:height" content="910">
-  <meta property="og:image:alt" content="California City Chamber of Commerce Member Directory preview in forest green and gold with a map pin and business-card motif.">
+  <meta property="og:image:width" content="900">
+  <meta property="og:image:height" content="696">
+  <meta property="og:image:alt" content="Shoppers and local vendors at an illustrative outdoor market in Montréal, Canada.">
   <meta property="og:url" content="https://RaymondAngel.github.io/wdd231/chamber/index.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="California City Chamber of Commerce">
-  <title>Home | California City Chamber of Commerce</title>
+  <title>California City Chamber of Commerce | Home</title>
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,12 +26,14 @@
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
   <script src="scripts/chamber.js" defer></script>
+  <script src="scripts/home_weather.js" defer></script>
+  <script src="scripts/home_spotlights.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main_content">Skip to main content</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="California City Chamber of Commerce home">
+      <a class="brand" href="index.html">
         <img src="images/chamber_logo.svg" alt="" width="44" height="44">
         <span>California City<small>CHAMBER OF COMMERCE</small></span>
       </a>
@@ -46,14 +48,58 @@
       </nav>
     </div>
   </header>
-  <main id="main_content" class="container">
-    <section class="future-page" aria-labelledby="page_heading">
-      <p class="eyebrow">CALIFORNIA CITY · KERN COUNTY</p>
-      <h1 id="page_heading">Home</h1>
-      <p>This is the shared home page template. Its full content belongs to a later chamber milestone; this week’s completed page is the member directory.</p>
-      <p>The earlier week-one prototype remains in the original project files and now also reflects California City, Kern County, California.</p>
-      <a class="button" href="directory.html">Explore the member directory</a>
+  <main id="main_content" class="container home_main">
+    <section class="home_hero" aria-labelledby="home_heading">
+      <img src="images/community_market.jpg" alt="Shoppers and local vendors gathering at an outdoor farmers market" width="900" height="696" fetchpriority="high">
+      <div class="hero_content">
+        <p class="eyebrow">LOCAL ROOTS. LASTING CONNECTIONS.</p>
+        <h1 id="home_heading">California City Chamber of Commerce</h1>
+        <p>Good neighbors. Great possibilities. Connect with the people helping our desert community grow.</p>
+        <a class="button hero_button" href="join.html">Join the chamber</a>
+      </div>
+      <p class="hero_caption">Illustrative market photo · Montréal, Canada</p>
     </section>
+    <div class="home_info">
+      <section class="home_panel" aria-labelledby="events_heading">
+        <p class="eyebrow">MEET. LEARN. GROW.</p>
+        <h2 id="events_heading">Community events</h2>
+        <p class="event_note">Sample recurring events for this student project; all times are Pacific.</p>
+        <article class="home_event">
+          <h3>Business breakfast</h3>
+          <p class="event_time">Third Thursday · 8–9 a.m.</p>
+          <p>Harbor &amp; Hearth Café · Meet fellow business owners, share ideas, and make your next local connection.</p>
+        </article>
+        <article class="home_event">
+          <h3>Saturday makers market</h3>
+          <p class="event_time">Every Saturday · 9 a.m.–1 p.m.</p>
+          <p>Market Square · Discover handmade goods and support our neighborhood businesses.</p>
+        </article>
+        <a href="directory.html">Find a local business</a>
+      </section>
+      <section class="home_panel" aria-labelledby="weather_heading">
+        <p class="eyebrow">PLAN YOUR DAY</p>
+        <h2 id="weather_heading">California City weather</h2>
+        <p id="weather_status" role="status">Loading local weather…</p>
+        <div id="current_weather" class="current_weather" hidden>
+          <img id="weather_icon" alt="" width="80" height="80" hidden>
+          <div><p id="current_temperature" class="weather_temperature"></p><p id="weather_description"></p></div>
+        </div>
+        <h3>Three-day forecast</h3>
+        <p class="forecast_note">Temperature near noon · °F · Pacific time</p>
+        <ul id="weather_forecast" class="weather_forecast"></ul>
+        <button id="weather_retry" class="retry-button" type="button" hidden>Retry weather</button>
+        <p class="weather_credit">Weather data: <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
+      </section>
+    </div>
+    <section class="home_spotlights" aria-labelledby="spotlights_heading">
+      <div class="spotlight_heading"><div><p class="eyebrow">THE PEOPLE BEHIND LOCAL BUSINESS</p><h2 id="spotlights_heading">Member spotlights</h2></div><a href="directory.html">View all members</a></div>
+      <p>Meet three of our gold and silver members, selected at random on each visit.</p>
+      <p id="spotlight_status" role="status">Loading member spotlights…</p>
+      <button id="spotlight_retry" class="retry-button" type="button" hidden>Retry spotlights</button>
+      <div id="member_spotlights" class="member-directory" aria-busy="true"></div>
+      <p class="event_note">Member businesses, contact details, and memberships are fictional. Website links open example.com.</p>
+    </section>
+    <noscript><p>Enable JavaScript to load live weather and member spotlights. You can still explore the navigation and community events.</p></noscript>
   </main>
   <footer class="site-footer">
     <div class="container footer-grid">
@@ -72,7 +118,7 @@
         <p id="last_modified">Last modified date loads with JavaScript.</p>
       </div>
     </div>
-    <div class="container footer-development"><p>Educational student project, not the official chamber website. Contact details are fictional; social links are platform placeholders. <a href="directory_review.md">Project notes and image credits</a>.</p></div>
+    <div class="container footer-development"><p>Educational student project, not the official chamber website. Businesses, events, and contact details are fictional; social links are platform placeholders. <a href="home_review.md">Project notes and image credits</a>.</p></div>
   </footer>
 </body>
 </html>

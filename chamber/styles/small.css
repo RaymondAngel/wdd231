@@ -81,3 +81,35 @@ main { padding-block: 2.5rem; min-height: 45vh; }
 .footer-development p { margin-bottom: .4rem; }
 .footer-note { font-size: .75rem; color: #dce5d9; margin-top: 1rem; }
 .future-page { max-width: 760px; background: #ffffff; border: 1px solid var(--line); padding: 1.5rem; border-radius: 6px; }
+
+/* Home page: reuse the directory palette, panels, buttons, and member cards. */
+.home_main { padding-top: 1.5rem; }
+.home_hero { position: relative; isolation: isolate; overflow: hidden; border-radius: 8px; background: var(--forest-dark); color: #ffffff; }
+.home_hero > img { width: 100%; height: 250px; object-fit: cover; }
+.hero_content { padding: 1.6rem; }
+.hero_content h1 { font-size: clamp(2rem, 4.2vw, 3.3rem); max-width: 700px; }
+.hero_content > p { max-width: 550px; }
+.hero_content .eyebrow { color: #f1d6a0; }
+.hero_button { background: var(--gold); color: var(--forest-dark); border-color: var(--gold); }
+.hero_button:hover { background: #f1d6a0; }
+.home_hero :focus-visible { outline-color: #ffffff; }
+.hero_caption { margin: 0; padding: .5rem 1.6rem; font-size: .7rem; background: var(--forest-dark); color: #ffffff; }
+.home_info { display: grid; gap: 1.25rem; margin-block: 1.5rem 2.5rem; }
+.home_panel { min-width: 0; padding: 1.5rem; border: 1px solid var(--line); border-radius: 6px; background: #ffffff; }
+.home_panel h3, .home_spotlights h3 { margin: 0 0 .5rem; font-family: 'Lora', Georgia, serif; font-size: 1.15rem; line-height: 1.35; }
+.event_note, .forecast_note, .weather_credit { font-size: .8rem; color: var(--muted); }
+.home_event { padding-block: 1rem; border-top: 1px solid var(--line); }
+.home_event p { font-size: .9rem; margin-bottom: .5rem; }
+.home_event .event_time { font-weight: 700; color: var(--forest); }
+.current_weather { display: flex; align-items: center; gap: 1rem; margin-block: 1rem; }
+.current_weather img { width: 80px; height: 80px; }
+.current_weather p { margin: 0; }
+.weather_temperature { font-size: 2rem; font-weight: 700; }
+#weather_description { text-transform: capitalize; }
+#weather_status, #spotlight_status { font-size: .85rem; color: var(--muted); }
+.weather_forecast { list-style: none; padding: 0; margin: 1rem 0; }
+.weather_forecast li { display: flex; justify-content: space-between; gap: .75rem; padding-block: .65rem; border-top: 1px solid var(--line); }
+.spotlight_heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; }
+.home_spotlights .event_note { margin-block: 1rem; }
+.home_spotlights .member-website { display: block; }
+.current_weather[hidden] { display: none; }

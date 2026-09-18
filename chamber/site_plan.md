@@ -33,3 +33,7 @@ Local tests passed; rendered browser/DevTools contrast, Lighthouse, and official
 ## References
 
 [W02 directory assignment](https://byui-cse.github.io/wdd231-ww-course/week02/assignment-02.html), [official site plan](https://byui-cse.github.io/wdd231-ww-course/week02/chamber-site-plan.html), [directory examples](https://byui-cse.github.io/wdd231-ww-course/resources/chamber-directory-example.html), and [Feather Icons](https://github.com/feathericons/feather).
+
+## W03 home page update
+
+The home page is now implemented with a responsive market hero, membership CTA, sample events, live OpenWeatherMap current conditions and three future near-noon forecasts, and three randomly selected gold/silver member spotlights. Shared styles and chrome remain consistent with the directory. Join and Discover remain future milestone templates. See home_review.md for implementation and verification evidence.
