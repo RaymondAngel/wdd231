@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Current weather in Trier, Germany, using the OpenWeatherMap API.">
+  <meta name="author" content="Raymond Amande">
+  <title>Weather API Test | Raymond Amande</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/weather.css">
+  <script src="scripts/weather.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="index.html">Course Home</a>
+    <p class="course_label">WDD 231 · Consuming an API</p>
+    <h1>OpenWeatherMap.org API Test</h1>
+  </header>
+  <main>
+    <h2>Trier, Germany</h2>
+    <p class="location">49.75° N · 6.64° E</p>
+    <p>The current temperature in Trier, Germany is <span id="current-temp">loading…</span></p>
+    <figure hidden>
+      <img id="weather-icon" alt="" width="100" height="100">
+      <figcaption></figcaption>
+    </figure>
+    <p id="weather_status" role="status">Loading current weather…</p>
+    <button id="retry_button" type="button" hidden>Try again</button>
+    <noscript><p>Enable JavaScript to display the current weather.</p></noscript>
+  </main>
+  <footer>
+    <p>Raymond Amande | <a href="https://openweathermap.org/">OpenWeatherMap.org</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+  </footer>
+</body>
+</html>
