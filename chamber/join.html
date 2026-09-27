@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="California City Chamber of Commerce membership course-project template. Membership application content is reserved for its later assignment milestone.">
+  <meta name="description" content="Compare membership benefits and apply to join the California City Chamber of Commerce.">
   <meta name="author" content="Raymond Amande">
   <meta name="theme-color" content="#163f39">
   <meta property="og:title" content="Join | California City Chamber of Commerce">
-  <meta property="og:description" content="California City Chamber of Commerce membership course-project template. Membership application content is reserved for its later assignment milestone.">
+  <meta property="og:description" content="Compare membership benefits and apply to join the California City Chamber of Commerce.">
   <meta property="og:image" content="https://RaymondAngel.github.io/wdd231/chamber/images/directory_social.jpg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1729">
@@ -18,14 +18,16 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="California City Chamber of Commerce">
   <title>Join | California City Chamber of Commerce</title>
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico?v=desert" sizes="32x32 48x48">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&amp;family=Open+Sans:wght@400;700&amp;display=swap">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/join.css">
   <script src="scripts/chamber.js" defer></script>
+  <script src="scripts/join.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main_content">Skip to main content</a>
@@ -47,13 +49,57 @@
     </div>
   </header>
   <main id="main_content" class="container">
-    <section class="future-page" aria-labelledby="page_heading">
-      <p class="eyebrow">CALIFORNIA CITY · KERN COUNTY</p>
-      <h1 id="page_heading">Join</h1>
-      <p>This is the shared join page template. Its full content belongs to a later chamber milestone; this week’s completed page is the member directory.</p>
-      <p>The earlier week-one prototype remains in the original project files and now also reflects California City, Kern County, California.</p>
-      <a class="button" href="directory.html">Explore the member directory</a>
+    <section class="page-intro" aria-labelledby="page_heading">
+      <p class="eyebrow">LOCAL ROOTS. LASTING CONNECTIONS.</p>
+      <h1 id="page_heading">Join the chamber</h1>
+      <p>Make connections, build new skills, and help California City thrive. Find the membership that fits your organization.</p>
     </section>
+    <div class="join-layout">
+      <section class="application-panel" aria-labelledby="application_heading">
+        <h2 id="application_heading">Membership application</h2>
+        <p>Fields marked * are required.</p>
+        <form action="thankyou.html" method="get" class="join-form">
+          <fieldset>
+            <legend>Your contact information</legend>
+            <label>First name *<input type="text" name="first" title="Enter your first name" autocomplete="given-name" required></label>
+            <label>Last name *<input type="text" name="last" title="Enter your last name" autocomplete="family-name" required></label>
+            <label>Organizational title<input type="text" name="title" title="Use at least seven letters, spaces, or hyphens" autocomplete="organization-title" pattern="[A-Za-z \-]{7,}" aria-describedby="title_hint"></label>
+            <p id="title_hint" class="field-hint">Optional. Use at least 7 characters: letters, spaces, or hyphens only.</p>
+            <label>Email address *<input type="email" name="email" title="Enter your email address" autocomplete="email" placeholder="name@example.com" required></label>
+            <label>Mobile phone number *<input type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel" required></label>
+          </fieldset>
+          <fieldset>
+            <legend>Your organization</legend>
+            <label>Business or organization name *<input type="text" name="organization" title="Enter your business or organization name" autocomplete="organization" required></label>
+            <label>Membership level *<select name="membership" title="Choose a membership level" autocomplete="off" required>
+              <option value="">Select a membership</option>
+              <option value="np">NP Membership — No fee (nonprofits)</option>
+              <option value="bronze">Bronze Membership — $100 / year</option>
+              <option value="silver">Silver Membership — $250 / year</option>
+              <option value="gold">Gold Membership — $500 / year</option>
+            </select></label>
+            <label>Business or organization description<textarea name="description" title="Describe your business or organization" autocomplete="off" rows="5"></textarea></label>
+          </fieldset>
+          <input type="hidden" name="timestamp" id="timestamp" title="Application load date and time">
+          <p class="field-hint">Membership fees and benefits are sample offerings for this student project.</p>
+          <input class="button" type="submit" value="Submit membership application">
+        </form>
+      </section>
+      <section class="membership-options" aria-labelledby="membership_heading">
+        <p class="eyebrow">ROOM TO GROW</p>
+        <h2 id="membership_heading">Membership levels</h2>
+        <p>Explore the benefits of belonging.</p>
+        <article class="membership-card"><h3>NP Membership</h3><p class="membership-price">No annual fee</p><p>For nonprofit organizations.</p><a href="#np_benefits" data-dialog="np_benefits" aria-haspopup="dialog">Explore NP Membership benefits</a></article>
+        <article class="membership-card"><h3>Bronze Membership</h3><p class="membership-price">$100 / year</p><p>Build your local connections.</p><a href="#bronze_benefits" data-dialog="bronze_benefits" aria-haspopup="dialog">Explore Bronze Membership benefits</a></article>
+        <article class="membership-card"><h3>Silver Membership</h3><p class="membership-price">$250 / year</p><p>Give your business more visibility.</p><a href="#silver_benefits" data-dialog="silver_benefits" aria-haspopup="dialog">Explore Silver Membership benefits</a></article>
+        <article class="membership-card"><h3>Gold Membership</h3><p class="membership-price">$500 / year</p><p>Take a leading role in our community.</p><a href="#gold_benefits" data-dialog="gold_benefits" aria-haspopup="dialog">Explore Gold Membership benefits</a></article>
+      </section>
+    </div>
+    <dialog id="np_benefits" aria-labelledby="np_heading" class="benefits-dialog"><h2 id="np_heading">NP Membership</h2><p class="membership-price">No annual fee</p><ul><li>Business directory listing</li><li>Community networking events</li><li>Monthly member newsletter</li></ul><form method="dialog"><button class="button" autofocus>Close benefits</button></form></dialog>
+    <dialog id="bronze_benefits" aria-labelledby="bronze_heading" class="benefits-dialog"><h2 id="bronze_heading">Bronze Membership</h2><p class="membership-price">$100 / year</p><ul><li>Everything in NP Membership</li><li>Quarterly business training</li><li>10% discount on chamber events</li></ul><form method="dialog"><button class="button" autofocus>Close benefits</button></form></dialog>
+    <dialog id="silver_benefits" aria-labelledby="silver_heading" class="benefits-dialog"><h2 id="silver_heading">Silver Membership</h2><p class="membership-price">$250 / year</p><ul><li>Everything in Bronze Membership</li><li>Eligibility for rotating home page spotlights</li><li>Monthly business training</li><li>20% discount on chamber events</li></ul><form method="dialog"><button class="button" autofocus>Close benefits</button></form></dialog>
+    <dialog id="gold_benefits" aria-labelledby="gold_heading" class="benefits-dialog"><h2 id="gold_heading">Gold Membership</h2><p class="membership-price">$500 / year</p><ul><li>Everything in Silver Membership</li><li>Featured newsletter advertising</li><li>Annual event sponsorship recognition</li><li>30% discount on chamber events</li></ul><form method="dialog"><button class="button" autofocus>Close benefits</button></form></dialog>
+    <noscript><p>Enable JavaScript to view membership benefit dialogs and record the application time.</p></noscript>
   </main>
   <footer class="site-footer">
     <div class="container footer-grid">

@@ -27,7 +27,7 @@ h2 { font-size: 1.35rem; }
 .site-header { background: #ffffff; border-bottom: 1px solid var(--line); }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1rem; }
 .brand { display: flex; align-items: center; gap: .7rem; min-width: 0; text-decoration: none; font: 700 1.3rem/1.25 'Lora', Georgia, serif; }
-.brand img { width: 44px; height: 44px; padding: .5rem; background: var(--gold); border-radius: 8px; flex-shrink: 0; }
+.brand img { width: 44px; height: 44px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
 .brand span { overflow-wrap: anywhere; }
 .brand small { display: block; font: 700 .6rem/1.5 'Open Sans', Arial, sans-serif; letter-spacing: .1em; margin-top: .2rem; }
 .menu-button { min-width: 44px; min-height: 44px; padding: .4rem .6rem; background: var(--paper); border: 1px solid var(--forest); border-radius: 4px; color: var(--forest); }

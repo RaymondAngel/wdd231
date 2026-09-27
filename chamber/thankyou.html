@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Discover California City, Kern County, in this chamber course-project template. Community content is reserved for its later assignment milestone.">
+  <meta name="description" content="View your California City Chamber of Commerce membership application confirmation.">
   <meta name="author" content="Raymond Amande">
   <meta name="theme-color" content="#163f39">
-  <meta property="og:title" content="Discover | California City Chamber of Commerce">
-  <meta property="og:description" content="Discover California City, Kern County, in this chamber course-project template. Community content is reserved for its later assignment milestone.">
+  <meta property="og:title" content="Thank You | California City Chamber of Commerce">
+  <meta property="og:description" content="View your California City Chamber of Commerce membership application confirmation.">
   <meta property="og:image" content="https://RaymondAngel.github.io/wdd231/chamber/images/directory_social.jpg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1729">
   <meta property="og:image:height" content="910">
   <meta property="og:image:alt" content="California City Chamber of Commerce Member Directory preview in forest green and gold with a map pin and business-card motif.">
-  <meta property="og:url" content="https://RaymondAngel.github.io/wdd231/chamber/discover.html">
+  <meta property="og:url" content="https://RaymondAngel.github.io/wdd231/chamber/thankyou.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="California City Chamber of Commerce">
-  <title>Discover | California City Chamber of Commerce</title>
+  <title>Thank You | California City Chamber of Commerce</title>
   <link rel="icon" href="favicon.ico?v=desert" sizes="32x32 48x48">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +25,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&amp;family=Open+Sans:wght@400;700&amp;display=swap">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/join.css">
   <script src="scripts/chamber.js" defer></script>
+  <script src="scripts/thankyou.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main_content">Skip to main content</a>
@@ -40,19 +42,29 @@
         <div class="navigation-links">
           <a href="directory.html">Directory</a>
           <a href="index.html">Home</a>
-          <a href="discover.html" aria-current="page">Discover</a>
+          <a href="discover.html">Discover</a>
           <a href="join.html">Join</a>
         </div>
       </nav>
     </div>
   </header>
   <main id="main_content" class="container">
-    <section class="future-page" aria-labelledby="page_heading">
-      <p class="eyebrow">CALIFORNIA CITY · KERN COUNTY</p>
-      <h1 id="page_heading">Discover</h1>
-      <p>This is the shared discover page template. Its full content belongs to a later chamber milestone; this week’s completed page is the member directory.</p>
-      <p>The earlier week-one prototype remains in the original project files and now also reflects California City, Kern County, California.</p>
+    <section class="confirmation-panel" aria-labelledby="page_heading">
+      <p class="eyebrow">GROW WITH CALIFORNIA CITY</p>
+      <h1 id="page_heading">Thank you for applying!</h1>
+      <p>Thank you for your interest in joining the California City Chamber of Commerce. Here is a summary of your application.</p>
+      <p class="demo-note">This is a student project demonstration. Your application has not been sent to a chamber or stored on a server.</p>
+      <dl id="application_summary" class="application-summary">
+        <dt>First name</dt><dd data-field="first">Not provided</dd>
+        <dt>Last name</dt><dd data-field="last">Not provided</dd>
+        <dt>Email address</dt><dd data-field="email">Not provided</dd>
+        <dt>Mobile phone number</dt><dd data-field="phone">Not provided</dd>
+        <dt>Business or organization</dt><dd data-field="organization">Not provided</dd>
+        <dt>Membership level</dt><dd data-field="membership">Not provided</dd>
+        <dt>Application opened</dt><dd data-field="timestamp">Not provided</dd>
+      </dl>
       <a class="button" href="directory.html">Explore the member directory</a>
+      <p><a href="join.html">Return to the application</a></p>
     </section>
   </main>
   <footer class="site-footer">
