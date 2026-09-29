@@ -1,0 +1,3 @@
+Tool: built-in image_gen; ICO packaging: System.Drawing
+Final prompt:
+Use case: logo-brand. Create a favicon for The Business Intelligence Guys matching the reference logo. Isolate and faithfully recreate ONLY the central gold lightbulb icon: thick dark navy #102D40 outline, muted gold #C4A052 fill, three ascending navy bar-chart bars inside, navy screw base, and three short navy rays above. No letters, no text, no divider, no B or G. Square canvas, genuinely transparent background. Center the bulb with minimal safe padding, filling approximately 88 percent of the square height. Simplify and thicken shapes for excellent readability at 16x16 and 32x32 pixels. Flat solid colors, crisp smooth edges, no shadows, no texture, no gradients.
