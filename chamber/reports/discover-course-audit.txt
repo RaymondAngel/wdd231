@@ -230,11 +230,11 @@ Use proper specificity and cascading to achieve desired styles.
 ✅ No use of !important found in CSS...
 CSS Statistics
 Total Selectors:
-134 ⚠️ High
+142 ⚠️ High
 Total Rules:
-120 ⚠️ High
+128 ⚠️ High
 Total Declarations:
-353 ⚠️ High
+361 ⚠️ High
 Repeated Declarations:
 0
 Color Types Used:
