@@ -25,6 +25,11 @@ with sync_playwright() as p:
     page.goto(base + 'discover.html')
     page.wait_for_selector('.discover-card')
     assert page.locator('.discover-card').count() == 8
+    assert page.locator('.discover-card[style]').count() == 0
+    assert page.locator('.discover-card img[loading="lazy"]').count() == 7
+    for card in page.locator('.discover-card').all():
+        for selector in ['h2', 'figure img', 'address', 'p', 'button']:
+            assert card.locator(selector).count() == 1
     assert page.locator('#visit_message').inner_text() == 'Welcome! Let us know if you have any questions.'
     page.reload()
     assert page.locator('#visit_message').inner_text() == 'Back so soon! Awesome!'
@@ -42,6 +47,13 @@ with sync_playwright() as p:
         if width in [320, 768, 1440]:
             page.screenshot(path=str(root / f'chamber/reports/discover-{width}.png'), full_page=True)
     assert page.locator('.discover-card img').evaluate_all('(images) => images.every(i => i.complete && i.naturalWidth === 300 && i.naturalHeight === 200)')
+    for width in [320, 1440]:
+        page.set_viewport_size({'width': width, 'height': 900})
+        image = page.locator('.discover-card img').first
+        image.hover()
+        page.wait_for_timeout(350)
+        effect = image.evaluate('(e) => getComputedStyle(e).transform')
+        assert (effect == 'none') == (width == 320), (width, effect)
     for button in page.locator('.discover-card button').all():
         button.click()
         assert page.locator('#attraction_dialog').evaluate('(e) => e.open')
@@ -84,6 +96,7 @@ with sync_playwright() as p:
         report['pages'].append({'page': name, 'cold_transfer_bytes': size, 'broken_local_links': broken})
         fresh.close()
     report['runtime_errors'] = errors
+    report['rubric_checks'] = {'cards': 8, 'webp_photos': 8, 'lazy_photos': 7, 'required_card_elements': True, 'inline_card_styles': 0, 'desktop_hover_only': True, 'visitor_messages': True, 'dialogs': True, 'responsive_navigation': True}
     assert not errors
     browser.close()
 server.shutdown()

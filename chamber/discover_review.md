@@ -32,11 +32,15 @@ See [photographers, original images, and licenses](images/discover/credits.md). 
 
 Chrome checks passed at widths 320, 640, 641, 768, 1024, 1025, and 1440 pixels with no horizontal overflow. Verified all eight images, first/return/one-day/five-day messages, blocked-storage fallback, all eight dialogs, Escape and focus restoration, and mobile navigation. No JavaScript runtime errors occurred. Screenshots at 320, 768, and 1440 were saved and mobile/desktop layouts visually reviewed.
 
-All local links on Home, Directory, Discover, Join, and Thank You returned successful responses. Fresh browser contexts with cache disabled measured full cold transfers including external resources: Home 346,666 bytes; Directory 282,423; Discover 311,651; Join 199,671; Thank You 195,091. All are below 500,000 bytes. See reports/discover-browser-checks.json.
+All local links on Home, Directory, Discover, Join, and Thank You returned successful responses. Fresh browser contexts with cache disabled measured full cold transfers including external resources at approximately 347 kB, 283 kB, 312 kB, 200 kB, and 196 kB respectively. All are below 500,000 bytes. See reports/discover-browser-checks.json for exact current measurements.
 
 Lighthouse mobile and desktop reports each scored **100 Accessibility, 100 Best Practices, and 100 SEO**. Rendered color contrast passed Lighthouse's WCAG check. Reports: [mobile](reports/discover-lighthouse-mobile.report.html) and [desktop](reports/discover-lighthouse-desktop.report.html). Initial simultaneous audits encountered a transient local resource connection failure; separate final runs resolved it and showed no console errors. These reports apply to Discover; older reports do not establish fresh Lighthouse scores for other chamber pages.
 
-External W3C HTML upload was blocked by automatic approval review; approval was requested. No external HTML validation result is claimed unless a later report is recorded.
+The official W05 course audit returned zero HTML validation errors and zero CSS validation errors. See [audit text](reports/discover-course-audit.txt). Its CSS warnings and stylesheet-size notices are advisory; no failing issue markers occur outside the report legend. The audit checks source HTML, so the generated cards were separately checked in Chrome.
+
+DevTools CSS Overview reported **zero WCAG AA contrast failures**. The muted text has 5.75:1 or 6.01:1 contrast, exceeding the normal-text AA threshold of 4.5:1; CSS Overview groups those as AAA advisories. See [CSS Overview data](reports/discover-css-overview.json).
+
+Rubric follow-up moved the eight grid-area assignments from JavaScript inline styles into the external stylesheet. See [all 13 criteria](reports/discover-rubric-review.md).
 
 ## Submission steps
 

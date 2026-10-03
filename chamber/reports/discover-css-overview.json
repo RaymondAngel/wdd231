@@ -1,0 +1,96 @@
+{
+  "elementCount": 191,
+  "issues": [
+    {
+      "nodeId": 19,
+      "contrastRatio": 5.754312202377107,
+      "thresholdsViolated": {
+        "aa": false,
+        "aaa": true,
+        "apca": false
+      }
+    },
+    {
+      "nodeId": 36,
+      "contrastRatio": 5.754312202377107,
+      "thresholdsViolated": {
+        "aa": false,
+        "aaa": true,
+        "apca": false
+      }
+    },
+    {
+      "nodeId": 164,
+      "contrastRatio": 6.009918927734053,
+      "thresholdsViolated": {
+        "aa": false,
+        "aaa": true,
+        "apca": false
+      }
+    },
+    {
+      "nodeId": 175,
+      "contrastRatio": 6.009918927734053,
+      "thresholdsViolated": {
+        "aa": false,
+        "aaa": true,
+        "apca": false
+      }
+    },
+    {
+      "nodeId": 186,
+      "contrastRatio": 6.009918927734053,
+      "thresholdsViolated": {
+        "aa": false,
+        "aaa": true,
+        "apca": false
+      }
+    },
+    {
+      "nodeId": 197,
+      "contrastRatio": 6.009918927734053,
+      "thresholdsViolated": {
+        "aa": false,
+        "aaa": true,
+        "apca": false
+      }
+    },
+    {
+      "nodeId": 208,
+      "contrastRatio": 6.009918927734053,
+      "thresholdsViolated": {
+        "aa": false,
+        "aaa": true,
+        "apca": false
+      }
+    },
+    {
+      "nodeId": 219,
+      "contrastRatio": 6.009918927734053,
+      "thresholdsViolated": {
+        "aa": false,
+        "aaa": true,
+        "apca": false
+      }
+    },
+    {
+      "nodeId": 230,
+      "contrastRatio": 6.009918927734053,
+      "thresholdsViolated": {
+        "aa": false,
+        "aaa": true,
+        "apca": false
+      }
+    },
+    {
+      "nodeId": 241,
+      "contrastRatio": 6.009918927734053,
+      "thresholdsViolated": {
+        "aa": false,
+        "aaa": true,
+        "apca": false
+      }
+    }
+  ],
+  "aa_failures": 0
+}

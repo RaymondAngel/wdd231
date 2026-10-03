@@ -121,6 +121,14 @@ main { padding-block: 2.5rem; min-height: 45vh; }
 .discover-facts { padding: 1.25rem; margin-bottom: 1.5rem; border: 1px solid var(--line); border-radius: 6px; }
 .discover-facts p:last-child { margin-bottom: 0; font-size: .85rem; }
 .discover-gallery { display: grid; grid-template-areas: 'place1' 'place2' 'place3' 'place4' 'place5' 'place6' 'place7' 'place8'; gap: 1.25rem; margin-bottom: 1.5rem; }
+.discover-card:nth-child(1) { grid-area: place1; }
+.discover-card:nth-child(2) { grid-area: place2; }
+.discover-card:nth-child(3) { grid-area: place3; }
+.discover-card:nth-child(4) { grid-area: place4; }
+.discover-card:nth-child(5) { grid-area: place5; }
+.discover-card:nth-child(6) { grid-area: place6; }
+.discover-card:nth-child(7) { grid-area: place7; }
+.discover-card:nth-child(8) { grid-area: place8; }
 .discover-card { display: grid; grid-template-areas: 'title' 'photo' 'address' 'description' 'action'; gap: .9rem; padding: 1.25rem; background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--gold); border-radius: 6px; min-width: 0; }
 .discover-card h2 { grid-area: title; margin: 0; }
 .discover-card figure { grid-area: photo; margin: 0; overflow: hidden; border-radius: 4px; }

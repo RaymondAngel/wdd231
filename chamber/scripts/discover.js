@@ -23,7 +23,6 @@ let activeButton;
 for (const [index, item] of attractions.entries()) {
   const card = document.createElement('article');
   card.className = 'discover-card';
-  card.style.gridArea = `place${index + 1}`;
   const heading = document.createElement('h2');
   heading.textContent = item.name;
   const figure = document.createElement('figure');

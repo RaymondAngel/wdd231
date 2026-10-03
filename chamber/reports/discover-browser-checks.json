@@ -39,29 +39,40 @@
   "pages": [
     {
       "page": "index.html",
-      "cold_transfer_bytes": 346666,
+      "cold_transfer_bytes": 347108,
       "broken_local_links": []
     },
     {
       "page": "directory.html",
-      "cold_transfer_bytes": 282423,
+      "cold_transfer_bytes": 282831,
       "broken_local_links": []
     },
     {
       "page": "discover.html",
-      "cold_transfer_bytes": 311651,
+      "cold_transfer_bytes": 311391,
       "broken_local_links": []
     },
     {
       "page": "join.html",
-      "cold_transfer_bytes": 199671,
+      "cold_transfer_bytes": 200079,
       "broken_local_links": []
     },
     {
       "page": "thankyou.html",
-      "cold_transfer_bytes": 195091,
+      "cold_transfer_bytes": 195499,
       "broken_local_links": []
     }
   ],
-  "runtime_errors": []
+  "runtime_errors": [],
+  "rubric_checks": {
+    "cards": 8,
+    "webp_photos": 8,
+    "lazy_photos": 7,
+    "required_card_elements": true,
+    "inline_card_styles": 0,
+    "desktop_hover_only": true,
+    "visitor_messages": true,
+    "dialogs": true,
+    "responsive_navigation": true
+  }
 }
