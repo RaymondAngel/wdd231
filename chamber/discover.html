@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Discover California City, Kern County, in this chamber course-project template. Community content is reserved for its later assignment milestone.">
+  <meta name="description" content="Discover California City and nearby Kern County: explore desert parks, wildlife, aviation, museums, and cultural landmarks with our chamber visitor guide.">
   <meta name="author" content="Raymond Amande">
   <meta name="theme-color" content="#163f39">
   <meta property="og:title" content="Discover | California City Chamber of Commerce">
-  <meta property="og:description" content="Discover California City, Kern County, in this chamber course-project template. Community content is reserved for its later assignment milestone.">
+  <meta property="og:description" content="Explore eight destinations in California City and nearby Kern County, from desert wildlife to cultural landmarks.">
   <meta property="og:image" content="https://RaymondAngel.github.io/wdd231/chamber/images/directory_social.jpg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1729">
@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
   <script src="scripts/chamber.js" defer></script>
+  <script src="scripts/discover.js" type="module"></script>
 </head>
 <body>
   <a class="skip-link" href="#main_content">Skip to main content</a>
@@ -47,13 +48,28 @@
     </div>
   </header>
   <main id="main_content" class="container">
-    <section class="future-page" aria-labelledby="page_heading">
+    <section class="page-intro" aria-labelledby="page_heading">
       <p class="eyebrow">CALIFORNIA CITY · KERN COUNTY</p>
-      <h1 id="page_heading">Discover</h1>
-      <p>This is the shared discover page template. Its full content belongs to a later chamber milestone; this week’s completed page is the member directory.</p>
-      <p>The earlier week-one prototype remains in the original project files and now also reflects California City, Kern County, California.</p>
-      <a class="button" href="directory.html">Explore the member directory</a>
+      <h1 id="page_heading">Discover our desert community</h1>
+      <p>Find room to explore in California City, then take a day trip through nearby Kern County. Discover open landscapes, local gathering places, and the stories that shape our region.</p>
     </section>
+    <aside class="discover-welcome" aria-label="Your visit"><p id="visit_message" role="status">Welcome! Let us know if you have any questions.</p><a href="join.html">Connect with the chamber</a></aside>
+    <section class="discover-facts" aria-labelledby="facts_heading">
+      <h2 id="facts_heading">California City at a glance</h2>
+      <p><strong>14,973 residents</strong> at the 2020 Census · <strong>Kern County, California</strong> · <strong>Mojave Desert</strong></p>
+      <p>Our community connects desert recreation with the wider region's aviation, rail, and cultural heritage. <a href="https://www.census.gov/quickfacts/californiacitycitycalifornia">Population source: U.S. Census Bureau</a>.</p>
+    </section>
+    <p id="gallery_status" class="portrait-note">Loading places to explore…</p>
+    <div id="discover_gallery" class="discover-gallery"></div>
+    <noscript><p>Enable JavaScript to see the eight destination cards and returning-visitor message. Visit <a href="https://www.californiacity-ca.gov/">California City's official website</a> for community information.</p></noscript>
+    <p class="portrait-note">Destinations include nearby day trips outside California City. Check each destination's website before traveling. <a href="discover_review.md">Sources and photograph credits</a>.</p>
+    <dialog id="attraction_dialog" class="discover-dialog" aria-labelledby="dialog_heading">
+      <form method="dialog"><button class="button" aria-label="Close destination details">Close</button></form>
+      <h2 id="dialog_heading">Destination details</h2>
+      <address id="dialog_address"></address>
+      <p id="dialog_details"></p>
+      <a id="dialog_source" href="https://www.californiacity-ca.gov/">Visit the destination website</a>
+    </dialog>
   </main>
   <footer class="site-footer">
     <div class="container footer-grid">

@@ -1,0 +1,67 @@
+{
+  "layouts": [
+    {
+      "width": 320,
+      "card_areas": "\"title\" \"photo\" \"address\" \"description\" \"action\"",
+      "overflow": false
+    },
+    {
+      "width": 640,
+      "card_areas": "\"title\" \"photo\" \"address\" \"description\" \"action\"",
+      "overflow": false
+    },
+    {
+      "width": 641,
+      "card_areas": "\"photo title\" \"photo address\" \"photo description\" \"action action\"",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "card_areas": "\"photo title\" \"photo address\" \"photo description\" \"action action\"",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "card_areas": "\"photo title\" \"photo address\" \"photo description\" \"action action\"",
+      "overflow": false
+    },
+    {
+      "width": 1025,
+      "card_areas": "\"title title\" \"photo address\" \"photo description\" \"photo action\"",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "card_areas": "\"title title\" \"photo address\" \"photo description\" \"photo action\"",
+      "overflow": false
+    }
+  ],
+  "pages": [
+    {
+      "page": "index.html",
+      "cold_transfer_bytes": 346666,
+      "broken_local_links": []
+    },
+    {
+      "page": "directory.html",
+      "cold_transfer_bytes": 282423,
+      "broken_local_links": []
+    },
+    {
+      "page": "discover.html",
+      "cold_transfer_bytes": 311651,
+      "broken_local_links": []
+    },
+    {
+      "page": "join.html",
+      "cold_transfer_bytes": 199671,
+      "broken_local_links": []
+    },
+    {
+      "page": "thankyou.html",
+      "cold_transfer_bytes": 195091,
+      "broken_local_links": []
+    }
+  ],
+  "runtime_errors": []
+}

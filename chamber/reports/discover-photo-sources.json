@@ -1,0 +1,66 @@
+[
+  {
+    "asset": "central-park.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/7/71/Central_Park%2C_California_City%2C_California.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Central_Park%2C_California_City%2C_California.jpg",
+    "artist": "Craig Dietrich",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "asset": "desert-tortoise.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Gopherus_agassizii.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Gopherus_agassizii.jpg",
+    "artist": "Tigerhawkvok",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "asset": "red-rock.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Red_Rock_Canyon_State_Park_CA_001.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Red_Rock_Canyon_State_Park_CA_001.JPG",
+    "artist": "Jean trans h+",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "asset": "mojave-airport.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mohave_airport_full.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Mohave_airport_full.jpg",
+    "artist": "Tedder",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "asset": "maturango.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/df/MaturangoMuseum.JPG",
+    "file_page": "https://commons.wikimedia.org/wiki/File:MaturangoMuseum.JPG",
+    "artist": "Qfl247",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "asset": "tomo-kahni.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/87/Tomo-Kahni_Landmark.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tomo-Kahni_Landmark.jpg",
+    "artist": "Tyutyika",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "asset": "tehachapi-loop.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/87/Tehachapi_Loop_Aerial.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Tehachapi_Loop_Aerial.jpg",
+    "artist": "Keavon Chambers",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "asset": "chavez.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/16/2013-0211-CaesarChavezGravesite.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:2013-0211-CaesarChavezGravesite.jpg",
+    "artist": "Bobak Ha'Eri",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+  }
+]

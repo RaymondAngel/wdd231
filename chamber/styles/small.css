@@ -114,3 +114,21 @@ main { padding-block: 2.5rem; min-height: 45vh; }
 .home_spotlights .event_note { margin-block: 1rem; }
 .home_spotlights .member-website { display: block; }
 .current_weather[hidden] { display: none; }
+
+/* Discover: named areas change the card composition at all three sizes. */
+.discover-welcome { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 2rem; padding: 1rem 1.25rem; margin-block: 1.5rem; border-left: 4px solid var(--gold); background: var(--sage); }
+.discover-welcome p { margin: 0; font-weight: 700; }
+.discover-facts { padding: 1.25rem; margin-bottom: 1.5rem; border: 1px solid var(--line); border-radius: 6px; }
+.discover-facts p:last-child { margin-bottom: 0; font-size: .85rem; }
+.discover-gallery { display: grid; grid-template-areas: 'place1' 'place2' 'place3' 'place4' 'place5' 'place6' 'place7' 'place8'; gap: 1.25rem; margin-bottom: 1.5rem; }
+.discover-card { display: grid; grid-template-areas: 'title' 'photo' 'address' 'description' 'action'; gap: .9rem; padding: 1.25rem; background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--gold); border-radius: 6px; min-width: 0; }
+.discover-card h2 { grid-area: title; margin: 0; }
+.discover-card figure { grid-area: photo; margin: 0; overflow: hidden; border-radius: 4px; }
+.discover-card img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+.discover-card address { grid-area: address; font-style: normal; font-size: .85rem; color: var(--muted); }
+.discover-card p { grid-area: description; font-size: .9rem; margin: 0; }
+.discover-card button { grid-area: action; justify-content: center; align-self: end; }
+.discover-dialog { width: min(540px, calc(100% - 2rem)); max-height: 85vh; padding: 1.5rem; border: 1px solid var(--forest); border-radius: 8px; color: var(--ink); background: var(--paper); }
+.discover-dialog::backdrop { background: rgb(16 49 44 / 70%); }
+.discover-dialog form { text-align: right; margin-bottom: 1rem; }
+.discover-dialog address { font-style: normal; margin-bottom: 1rem; }

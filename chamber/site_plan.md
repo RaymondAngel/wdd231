@@ -37,3 +37,7 @@ W03 home-page browser tests, Lighthouse reports, and publication are complete. T
 ## W03 home page update
 
 The home page is now implemented with a responsive market hero, membership CTA, sample events, live OpenWeatherMap current conditions and three future near-noon forecasts, and three randomly selected gold/silver member spotlights. Shared styles and chrome remain consistent with the directory. Join and Discover remain future milestone templates. See home_review.md for implementation and verification evidence.
+
+## W05 completion update
+
+Discover is now a completed visitor guide with eight sourced California City and nearby Kern County destinations, an exported data module, eight local 300 × 200 WebP photographs, three distinct named-grid-area card layouts, localStorage visit messages, desktop-only image hover effects, and accessible Learn more dialogs. Join and Thank You were completed in W04. This update supersedes the earlier milestone notes describing them as future templates. See discover_review.md for sources, credits, and current verification.

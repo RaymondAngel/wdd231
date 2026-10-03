@@ -1,4 +1,18 @@
 /* Shared chamber layout enhancements; loaded after small.css. */
+@media (min-width: 641px) {
+  .discover-card { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: 'photo title' 'photo address' 'photo description' 'action action'; }
+  .discover-card figure { align-self: center; }
+}
+@media (min-width: 1025px) {
+  .discover-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-areas: 'place1 place2' 'place3 place4' 'place5 place6' 'place7 place8'; }
+  .discover-card { grid-template-areas: 'title title' 'photo address' 'photo description' 'photo action'; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+}
+@media (min-width: 641px) and (hover: hover) and (pointer: fine) {
+  .discover-card img:hover { filter: saturate(1.25); transform: scale(1.045); }
+}
+@media (min-width: 641px) and (prefers-reduced-motion: no-preference) {
+  .discover-card img { transition: transform .25s ease, filter .25s ease; }
+}
 @media (min-width: 700px) {
   .container { width: min(1160px, calc(100% - 3rem)); }
   .header-inner { flex-wrap: wrap; padding-block: 1.4rem; }
