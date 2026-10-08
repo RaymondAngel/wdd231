@@ -1,0 +1,32 @@
+{
+  "index-mobile": {
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "services-mobile": {
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "contact-mobile": {
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "index-desktop": {
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "services-desktop": {
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "contact-desktop": {
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  }
+}

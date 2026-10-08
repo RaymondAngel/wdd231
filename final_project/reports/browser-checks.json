@@ -1,0 +1,139 @@
+{
+  "layouts": [
+    {
+      "page": "index",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "page": "index",
+      "width": 568,
+      "overflow": false
+    },
+    {
+      "page": "index",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "index",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "page": "services",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "page": "services",
+      "width": 568,
+      "overflow": false
+    },
+    {
+      "page": "services",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "services",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "page": "contact",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "page": "contact",
+      "width": 568,
+      "overflow": false
+    },
+    {
+      "page": "contact",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "contact",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "page": "thankyou",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "page": "thankyou",
+      "width": 568,
+      "overflow": false
+    },
+    {
+      "page": "thankyou",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "thankyou",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "page": "attributions",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "page": "attributions",
+      "width": 568,
+      "overflow": false
+    },
+    {
+      "page": "attributions",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "attributions",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "page": "video",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "page": "video",
+      "width": 568,
+      "overflow": false
+    },
+    {
+      "page": "video",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "video",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "checks": [
+    "Mobile menu opens and closes with Escape",
+    "15 data items, filters, no-match message, persisted selection, modal keyboard and focus",
+    "Required form validation, service preselection, URLSearchParams, safe text rendering",
+    "Fetch failure produces usable retry and successfully recovers"
+  ],
+  "errors": [],
+  "page_bytes": {
+    "index": 178506,
+    "services": 187178,
+    "contact": 178037,
+    "thankyou": 176327,
+    "attributions": 175514,
+    "video": 175205
+  }
+}

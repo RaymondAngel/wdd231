@@ -1,0 +1,39 @@
+FINAL PROJECT COMPLETION CHECKLIST
+
+Main site: final_project/index.html
+Three required pages: index.html, services.html, contact.html
+Additional pages: thankyou.html (form results), attributions.html,
+video.html (recording status; must be updated after recording).
+
+Implemented
+- Responsive navigation, current-page wayfinding, grid/flex layouts.
+- 15 JSON-generated services with at least four displayed properties.
+- Fetch API, async/await, try/catch, ES module import/export.
+- Array methods, template literals, DOM updates, and event listeners.
+- Saved service selections in localStorage.
+- Native modal dialog, keyboard close, and focus return.
+- Validated GET form and URLSearchParams results with safe text rendering.
+- Unique page titles/descriptions, author, Open Graph tags, favicon.
+- Optimized logo, intrinsic image dimensions, lazy process illustration.
+- Course homepage Final navigation points to final_project/index.html.
+
+Before submission
+1. Record the screen and your face for approximately five minutes using
+   video-recording-guide.txt. Upload it and update every footer link.
+2. Review reports/browser-checks.json, html-validation.json, and Lighthouse
+   reports. All six generated pages passed W3C HTML validation with no
+   errors or warnings. These results do not certify the published version
+   or replace the course page audit.
+3. Commit/push the finished files and verify GitHub Pages hosting. Nothing
+   in this work automatically commits, pushes, or submits to Canvas.
+4. The existing Git remote uses the repository name
+   https---github.com-RaymondAngel-wdd231. The expected default Pages URL is
+   https://raymondangel.github.io/https---github.com-RaymondAngel-wdd231/final_project/
+   Confirm the actual URL in repository Settings > Pages before submitting.
+   If the published base differs, update og:url and og:image metadata.
+5. Run the course page audit on the published main-page URLs; check all
+   pages in another browser and rerun Lighthouse on the published version.
+6. Submit the working project URL to the W06 Canvas assignment.
+
+The form is intentionally a course demonstration with an inquiry preview.
+Real business contact details and backend email delivery were not provided.

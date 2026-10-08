@@ -1,0 +1,43 @@
+LOCAL VERIFICATION — OCTOBER 7, 2026
+
+Lighthouse 12.5.1 using headless Chrome, local HTTP server:
+                    Accessibility  Best Practices  SEO
+Home mobile              100            100        100
+Services mobile          100            100        100
+Contact mobile           100            100        100
+Home desktop             100            100        100
+Services desktop         100            100        100
+Contact desktop          100            100        100
+
+All six Lighthouse runs passed the color-contrast audit. These are local
+Lighthouse results, not a DevTools CSS Overview export or published audits.
+See the individual HTML/JSON reports and lighthouse-summary.json.
+
+Browser checks passed:
+- Six pages at 320, 568, 768, and 1440 pixels without horizontal overflow.
+- All images load; one h1 and a description per page.
+- Main navigation expands on mobile and closes with Escape.
+- Fifteen services; category/search filtering and no-match feedback.
+- Saved selections persist across reload; Saved only filter works.
+- Modal focus, Escape dismissal, and focus return work.
+- Required form validation and category preselection work.
+- Submitted entries render with URLSearchParams and textContent.
+- HTML-like form input displays as text without script execution.
+- A simulated failed fetch shows a working retry button.
+- No JavaScript runtime exceptions.
+- Every generated page is below 190,000 bytes of local resources.
+- No duplicate IDs or missing local asset/page references.
+- W3C Nu HTML validation passed for all six generated pages with zero
+  errors or warnings. See html-validation.json for the returned messages.
+
+Screenshots were generated and desktop Home/mobile Contact inspected.
+Browser checks were rerun after final mobile header/checkbox adjustments.
+
+Not completed:
+- Course page audit and published-page tests: require a live deployed URL.
+- Student video: requires the student to record their own face and screen,
+  upload publicly, and supply the real recording link.
+- Git commit, push, GitHub Pages confirmation, and Canvas submission.
+
+The existing repository name suggests the Pages base documented in
+notes/submission-checklist.txt. Hosting has not been verified.

@@ -1,0 +1,41 @@
+WDD 231 FINAL PROJECT: ABOUT FIVE MINUTES
+
+Keep your face visible on camera while recording your screen. Use sample
+contact data. Upload the finished video publicly or with a link accessible
+to graders. Check the link while signed out.
+
+0:00–0:45 — Introduce the data and output
+Open final_project/data/services.json. Explain that the catalog contains
+15 service objects. Show name, category, description, audience, deliverable,
+benefit, and example. Open Services and show all 15 generated cards.
+
+0:45–2:15 — Show asynchronous fetching and error handling
+Open final_project/scripts/services.mjs and find loadServices(). Explain
+that async/await waits for fetch('./data/services.json') and response.json().
+Show the response.ok check and try/catch. Explain that catch displays a
+retry control. Show filtering by category and searching for a service.
+To demonstrate failure, use DevTools Network request blocking for
+*services.json, reload, show the error/retry control, unblock, and retry.
+
+2:15–3:30 — Show ES modules and saved state
+Show type="module" in services.html. Show the import of readSaved and
+writeSaved from storage.mjs. Explain the exported functions and JSON
+serialization into localStorage. Save a service, reload, and enable Saved
+only to demonstrate persistence. Show filter(), forEach(), and a template
+literal in render(). Explain how the generated cards enter the DOM.
+
+3:30–4:15 — Demonstrate the modal
+Open service details. Show the native dialog markup, showModal(), and
+close(). Press Escape and show that focus returns to the details button.
+
+4:15–5:00 — Demonstrate form results
+Use sample data in the contact form. Submit to thankyou.html and show the
+displayed fields. Open thankyou.mjs and explain URLSearchParams and
+textContent. The form previews information; it does not send email.
+
+After recording
+Replace href="video.html" in the footer of index.html, services.html,
+contact.html, thankyou.html, attributions.html, and video.html with the
+actual public recording URL. Remove the recording-pending message or
+replace video.html with an introduction and a link to the finished video.
+Do not submit until the recording is linked and accessible.

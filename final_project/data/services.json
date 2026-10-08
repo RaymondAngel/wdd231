@@ -1,0 +1,152 @@
+[
+  {
+    "id": "service-1",
+    "name": "Sales trend analysis",
+    "category": "Data analytics",
+    "description": "Find patterns in sales across products, regions, and time.",
+    "audience": "Sales managers",
+    "deliverable": "Sales analysis summary",
+    "benefit": "Focus attention on changing demand.",
+    "example": "Compare monthly sales by product to identify seasonal demand."
+  },
+  {
+    "id": "service-2",
+    "name": "Customer segmentation",
+    "category": "Data analytics",
+    "description": "Group customers by relevant purchase behavior.",
+    "audience": "Marketing teams",
+    "deliverable": "Customer segment profiles",
+    "benefit": "Plan more relevant communication.",
+    "example": "Compare repeat customers with first-time buyers using purchase frequency."
+  },
+  {
+    "id": "service-3",
+    "name": "Data quality review",
+    "category": "Data analytics",
+    "description": "Check business records for missing values and inconsistent formats.",
+    "audience": "Operations teams",
+    "deliverable": "Data quality checklist",
+    "benefit": "Reduce avoidable reporting errors.",
+    "example": "Review a customer export for duplicate records and missing account IDs."
+  },
+  {
+    "id": "service-4",
+    "name": "Inventory analysis",
+    "category": "Data analytics",
+    "description": "Review stock movements and replenishment patterns.",
+    "audience": "Retail operators",
+    "deliverable": "Inventory analysis workbook",
+    "benefit": "Identify slow-moving stock.",
+    "example": "Compare stock levels with recent demand before planning a reorder."
+  },
+  {
+    "id": "service-5",
+    "name": "Financial reporting analysis",
+    "category": "Data analytics",
+    "description": "Organize financial measures into a consistent reporting view.",
+    "audience": "Business owners",
+    "deliverable": "Financial measure summary",
+    "benefit": "Understand revenue and expense patterns.",
+    "example": "Compare budgeted expenses with recorded spending by department."
+  },
+  {
+    "id": "service-6",
+    "name": "Executive overview dashboard",
+    "category": "Dashboards",
+    "description": "Bring leadership measures into one readable overview.",
+    "audience": "Leadership teams",
+    "deliverable": "Executive dashboard prototype",
+    "benefit": "Keep decisions tied to shared measures.",
+    "example": "Display revenue, orders, and operating costs with agreed definitions."
+  },
+  {
+    "id": "service-7",
+    "name": "Sales performance dashboard",
+    "category": "Dashboards",
+    "description": "Track sales activity against business targets.",
+    "audience": "Sales teams",
+    "deliverable": "Sales dashboard prototype",
+    "benefit": "Spot changes in performance sooner.",
+    "example": "Compare monthly revenue with targets and filter by product group."
+  },
+  {
+    "id": "service-8",
+    "name": "Operations dashboard",
+    "category": "Dashboards",
+    "description": "Monitor workload, completion, and operational bottlenecks.",
+    "audience": "Operations managers",
+    "deliverable": "Operations dashboard prototype",
+    "benefit": "Prioritize the work that needs attention.",
+    "example": "Show open jobs, completed tasks, and average turnaround time."
+  },
+  {
+    "id": "service-9",
+    "name": "Marketing dashboard",
+    "category": "Dashboards",
+    "description": "Connect campaign activity with relevant outcomes.",
+    "audience": "Marketing managers",
+    "deliverable": "Campaign dashboard prototype",
+    "benefit": "Compare campaign results consistently.",
+    "example": "Display visits and inquiries by campaign with clear attribution limits."
+  },
+  {
+    "id": "service-10",
+    "name": "Customer support dashboard",
+    "category": "Dashboards",
+    "description": "Summarize support volume and response patterns.",
+    "audience": "Support leads",
+    "deliverable": "Support dashboard prototype",
+    "benefit": "Make service workload visible.",
+    "example": "Compare incoming tickets, resolution time, and outstanding requests."
+  },
+  {
+    "id": "service-11",
+    "name": "AI opportunity assessment",
+    "category": "AI consulting",
+    "description": "Review repeatable tasks for practical AI opportunities.",
+    "audience": "Small-business owners",
+    "deliverable": "Opportunity and risk shortlist",
+    "benefit": "Choose a focused starting point.",
+    "example": "Evaluate whether drafting internal summaries could reduce repetitive work."
+  },
+  {
+    "id": "service-12",
+    "name": "Workflow automation planning",
+    "category": "AI consulting",
+    "description": "Map a process before introducing AI-assisted steps.",
+    "audience": "Operations teams",
+    "deliverable": "Workflow improvement plan",
+    "benefit": "Clarify where human review belongs.",
+    "example": "Map intake, classification, and approval for incoming service requests."
+  },
+  {
+    "id": "service-13",
+    "name": "Document summary pilot",
+    "category": "AI consulting",
+    "description": "Plan an AI-assisted summary process with review checkpoints.",
+    "audience": "Administrative teams",
+    "deliverable": "Document summary pilot plan",
+    "benefit": "Make lengthy information easier to review.",
+    "example": "Test summaries of nonconfidential meeting notes against the originals."
+  },
+  {
+    "id": "service-14",
+    "name": "Knowledge assistant planning",
+    "category": "AI consulting",
+    "description": "Define a searchable internal knowledge assistant scope.",
+    "audience": "Team managers",
+    "deliverable": "Knowledge assistant requirements",
+    "benefit": "Improve access to approved information.",
+    "example": "Plan answers grounded in approved operating procedures with source references."
+  },
+  {
+    "id": "service-15",
+    "name": "Responsible AI readiness review",
+    "category": "AI consulting",
+    "description": "Review data handling, output checks, and oversight needs.",
+    "audience": "Project stakeholders",
+    "deliverable": "AI readiness checklist",
+    "benefit": "Set clear responsibilities before a pilot.",
+    "example": "Agree on permitted inputs, reviewer roles, and how errors will be recorded."
+  }
+]

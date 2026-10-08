@@ -1,0 +1,32 @@
+{
+  "index": {
+    "duplicate_ids": 0,
+    "broken_local_references": 0,
+    "references_checked": 19
+  },
+  "services": {
+    "duplicate_ids": 0,
+    "broken_local_references": 0,
+    "references_checked": 15
+  },
+  "contact": {
+    "duplicate_ids": 0,
+    "broken_local_references": 0,
+    "references_checked": 15
+  },
+  "thankyou": {
+    "duplicate_ids": 0,
+    "broken_local_references": 0,
+    "references_checked": 15
+  },
+  "attributions": {
+    "duplicate_ids": 0,
+    "broken_local_references": 0,
+    "references_checked": 13
+  },
+  "video": {
+    "duplicate_ids": 0,
+    "broken_local_references": 0,
+    "references_checked": 13
+  }
+}
