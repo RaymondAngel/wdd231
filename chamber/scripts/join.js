@@ -10,3 +10,7 @@ document.querySelectorAll('[data-dialog]').forEach((link) => {
   // Native dialogs support Escape and keep keyboard focus inside while open.
   dialog.addEventListener('close', () => link.focus());
 });
+
+document.querySelectorAll('[data-close-dialog]').forEach((button) => {
+  button.addEventListener('click', () => button.closest('dialog').close());
+});

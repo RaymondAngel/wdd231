@@ -82,7 +82,7 @@
           </fieldset>
           <input type="hidden" name="timestamp" id="timestamp" title="Application load date and time">
           <p class="field-hint">Membership fees and benefits are sample offerings for this student project.</p>
-          <input class="button" type="submit" value="Submit membership application">
+          <button class="button" type="submit">Submit membership application</button>
         </form>
       </section>
       <section class="membership-options" aria-labelledby="membership_heading">
@@ -95,10 +95,10 @@
         <article class="membership-card"><h3>Gold Membership</h3><p class="membership-price">$500 / year</p><p>Take a leading role in our community.</p><a href="#gold_benefits" data-dialog="gold_benefits" aria-haspopup="dialog">Explore Gold Membership benefits</a></article>
       </section>
     </div>
-    <dialog id="np_benefits" aria-labelledby="np_heading" class="benefits-dialog"><h2 id="np_heading">NP Membership</h2><p class="membership-price">No annual fee</p><ul><li>Business directory listing</li><li>Community networking events</li><li>Monthly member newsletter</li></ul><form method="dialog"><button class="button" autofocus>Close benefits</button></form></dialog>
-    <dialog id="bronze_benefits" aria-labelledby="bronze_heading" class="benefits-dialog"><h2 id="bronze_heading">Bronze Membership</h2><p class="membership-price">$100 / year</p><ul><li>Everything in NP Membership</li><li>Quarterly business training</li><li>10% discount on chamber events</li></ul><form method="dialog"><button class="button" autofocus>Close benefits</button></form></dialog>
-    <dialog id="silver_benefits" aria-labelledby="silver_heading" class="benefits-dialog"><h2 id="silver_heading">Silver Membership</h2><p class="membership-price">$250 / year</p><ul><li>Everything in Bronze Membership</li><li>Eligibility for rotating home page spotlights</li><li>Monthly business training</li><li>20% discount on chamber events</li></ul><form method="dialog"><button class="button" autofocus>Close benefits</button></form></dialog>
-    <dialog id="gold_benefits" aria-labelledby="gold_heading" class="benefits-dialog"><h2 id="gold_heading">Gold Membership</h2><p class="membership-price">$500 / year</p><ul><li>Everything in Silver Membership</li><li>Featured newsletter advertising</li><li>Annual event sponsorship recognition</li><li>30% discount on chamber events</li></ul><form method="dialog"><button class="button" autofocus>Close benefits</button></form></dialog>
+    <dialog id="np_benefits" aria-labelledby="np_heading" class="benefits-dialog"><h2 id="np_heading">NP Membership</h2><p class="membership-price">No annual fee</p><ul><li>Business directory listing</li><li>Community networking events</li><li>Monthly member newsletter</li></ul><button class="button" type="button" data-close-dialog autofocus>Close benefits</button></dialog>
+    <dialog id="bronze_benefits" aria-labelledby="bronze_heading" class="benefits-dialog"><h2 id="bronze_heading">Bronze Membership</h2><p class="membership-price">$100 / year</p><ul><li>Everything in NP Membership</li><li>Quarterly business training</li><li>10% discount on chamber events</li></ul><button class="button" type="button" data-close-dialog autofocus>Close benefits</button></dialog>
+    <dialog id="silver_benefits" aria-labelledby="silver_heading" class="benefits-dialog"><h2 id="silver_heading">Silver Membership</h2><p class="membership-price">$250 / year</p><ul><li>Everything in Bronze Membership</li><li>Eligibility for rotating home page spotlights</li><li>Monthly business training</li><li>20% discount on chamber events</li></ul><button class="button" type="button" data-close-dialog autofocus>Close benefits</button></dialog>
+    <dialog id="gold_benefits" aria-labelledby="gold_heading" class="benefits-dialog"><h2 id="gold_heading">Gold Membership</h2><p class="membership-price">$500 / year</p><ul><li>Everything in Silver Membership</li><li>Featured newsletter advertising</li><li>Annual event sponsorship recognition</li><li>30% discount on chamber events</li></ul><button class="button" type="button" data-close-dialog autofocus>Close benefits</button></dialog>
     <noscript><p>Enable JavaScript to view membership benefit dialogs and record the application time.</p></noscript>
   </main>
   <footer class="site-footer">
