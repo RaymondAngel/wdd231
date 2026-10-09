@@ -40,6 +40,7 @@ with sync_playwright() as p:
         resources = page.evaluate('performance.getEntriesByType("resource").map(r => r.name)')
         total = (root / f'final_project/{name}.html').stat().st_size
         for resource in set(resources):
+            if not resource.startswith(base): continue
             path = root / resource.split('8766/')[1].split('?')[0]
             if path.is_file(): total += path.stat().st_size
         assert total < 500000, (name, total)

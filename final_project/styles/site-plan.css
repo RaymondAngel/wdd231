@@ -2,7 +2,7 @@
   --navy: #102d40;
   --gold: #c4a052;
   --white: #ffffff;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   color: var(--navy);
   background: var(--white);
   line-height: 1.65;
