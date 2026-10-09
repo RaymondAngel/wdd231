@@ -1,0 +1,24 @@
+﻿FINAL PROJECT ORGANIZATION
+
+Root HTML files: published pages and the original site plan.
+styles/: shared website CSS and separate site-plan CSS.
+  CSS order: foundation, skip link, header/navigation, main content, footer,
+  then responsive overrides. Shared components are defined once and reused.
+scripts/: runtime ES modules and existing project verification utilities.
+data/: service catalog JSON.
+images/: assets referenced by published pages (logo, process, and favicons).
+notes/: planning, submission instructions, and original image prompts.
+notes/source-assets/: original logo variants and full-size favicon artwork;
+  these are retained as unique source files rather than served page assets.
+reports/: existing validation evidence, browser screenshots, and audit reports.
+
+Cleanup verification:
+- No byte-identical duplicate files were found anywhere in final_project.
+- No duplicate base selectors were found in the shared website stylesheet.
+- All original CSS declarations and breakpoints were retained.
+- Computed styles matched before/after at 320, 568, 768, and 1440 pixels
+  across all seven HTML pages (28 comparisons).
+- Existing link and browser checks passed, including navigation, filters,
+  saved services, dialog focus, form results, and failed-fetch recovery.
+- Lighthouse and external HTML validation reports are existing evidence;
+  those external audits were not rerun for this organization-only cleanup.

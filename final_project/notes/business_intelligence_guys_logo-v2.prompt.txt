@@ -1,4 +1,4 @@
 Tool: built-in image_gen
-Reference: business_intelligence_guys_logo.png
+Reference: source-assets/business_intelligence_guys_logo.png
 Final prompt:
 Use case: logo-brand. Recreate the provided original Business Intelligence Guys logo faithfully as a large crisp high-resolution horizontal logo on white, approximately 3:1 aspect ratio. Reference image is the existing brand design; preserve its composition, typography, wording, and navy blue and muted gold palette. Left: oversized bold navy B and G with a gold lightbulb serving as I, navy bulb outline, three ascending navy chart bars inside, three short navy rays above and navy base. Thin navy vertical divider. Right exact stacked text: "The", "Business", "Intelligence Guys", then smaller tagline "Data Analytics, Dashboards & AI Consulting". Match the reference layout and bold rounded sans-serif letterforms closely. Clean flat solid color fills, sharp smooth edges, generous outer margins, no extra elements, no mockup, no shadows. Navy approximately #102D40 and muted gold approximately #C4A052. Make the logo large and legible.

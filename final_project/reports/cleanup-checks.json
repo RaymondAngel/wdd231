@@ -1,0 +1,145 @@
+{
+  "duplicate_files": 0,
+  "style_comparisons": [
+    {
+      "page": "index",
+      "width": 320,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "index",
+      "width": 568,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "index",
+      "width": 768,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "index",
+      "width": 1440,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "services",
+      "width": 320,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "services",
+      "width": 568,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "services",
+      "width": 768,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "services",
+      "width": 1440,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "contact",
+      "width": 320,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "contact",
+      "width": 568,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "contact",
+      "width": 768,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "contact",
+      "width": 1440,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "thankyou",
+      "width": 320,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "thankyou",
+      "width": 568,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "thankyou",
+      "width": 768,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "thankyou",
+      "width": 1440,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "attributions",
+      "width": 320,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "attributions",
+      "width": 568,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "attributions",
+      "width": 768,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "attributions",
+      "width": 1440,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "video",
+      "width": 320,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "video",
+      "width": 568,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "video",
+      "width": 768,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "video",
+      "width": 1440,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "site-plan",
+      "width": 320,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "site-plan",
+      "width": 568,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "site-plan",
+      "width": 768,
+      "computed_styles_identical": true
+    },
+    {
+      "page": "site-plan",
+      "width": 1440,
+      "computed_styles_identical": true
+    }
+  ]
+}
