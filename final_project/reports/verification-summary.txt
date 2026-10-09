@@ -1,5 +1,9 @@
 LOCAL VERIFICATION — OCTOBER 7, 2026
 
+HTML validation and local link checks repeated October 8, 2026: all six
+generated pages passed with zero W3C messages, duplicate IDs, or broken
+local references. Lighthouse and browser scores below are from October 7.
+
 Lighthouse 12.5.1 using headless Chrome, local HTTP server:
                     Accessibility  Best Practices  SEO
 Home mobile              100            100        100
